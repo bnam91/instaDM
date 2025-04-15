@@ -17,6 +17,10 @@
 # 5. 브라우저 캐시 관리 및 자동화 감지 회피 기능 포함
 #    - 로그인 정보는 유지하면서 캐시만 정리
 #    - 작업 간 랜덤한 시간 간격 추가
+# 6. MongoDB에 DM 발송 기록 저장
+#    - 데이터베이스: insta09_database
+#    - 컬렉션: gogoya_DmRecords
+#    - 기록 정보: 인플루언서 이름, 프로필, 상태, 발송시간, 템플릿, 메시지 내용
 # 작성일: v2 버전
 
 from selenium import webdriver
@@ -40,8 +44,11 @@ from dotenv import load_dotenv
 import sys
 # PyQt5 프로필 선택기 임포트
 from dm_ui import select_profile_gui
-# 릴리즈 업데이터 임포트
+# 릴리즈 업데이트 임포트
 from release_updater import ReleaseUpdater
+# MongoDB 관련 임포트
+from pymongo import MongoClient
+from pymongo.server_api import ServerApi
 
 # 환경 변수 로드
 load_dotenv()
@@ -62,6 +69,22 @@ try:
         print("⚠️ 업데이트 실패, 이전 버전으로 계속 진행합니다...")
 except Exception as e:
     print(f"❌ 버전 확인 중 오류 발생: {e}")
+
+# MongoDB 연결 설정
+uri = "mongodb+srv://coq3820:JmbIOcaEOrvkpQo1@cluster0.qj1ty.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+try:
+    mongo_client = MongoClient(uri, server_api=ServerApi('1'))
+    # 연결 확인
+    mongo_client.admin.command('ping')
+    print("MongoDB 연결 성공!")
+    
+    # 데이터베이스와 컬렉션 선택
+    db = mongo_client['insta09_database']
+    dm_collection = db['gogoya_DmRecords']
+    mongo_connected = True
+except Exception as e:
+    print(f"MongoDB 연결 실패: {e}")
+    mongo_connected = False
 
 def select_user_profile():
     # 현재 스크립트 위치 기준으로 user_data 폴더 경로 생성
@@ -120,6 +143,10 @@ user_data_dir, dm_list_sheet, template_sheet = select_user_profile()
 if not user_data_dir:
     print("프로필 선택 오류. 프로그램을 종료합니다.")
     sys.exit(1)
+
+# 프로필 폴더명 추출 (경로의 마지막 부분)
+profile_name = os.path.basename(user_data_dir)
+print(f"사용 중인 프로필명: {profile_name}")
 
 options.add_argument(f"user-data-dir={user_data_dir}")
 
@@ -189,6 +216,29 @@ def update_sheet_status(service, row, status, timestamp=None):
         body=body
     ).execute()
 
+def save_dm_record_to_mongodb(influe_name, contact_profile, status, dm_date, content, message):
+    """MongoDB에 DM 발송 기록을 저장하는 함수"""
+    if not mongo_connected:
+        print("MongoDB에 연결되지 않아 기록을 저장할 수 없습니다.")
+        return False
+    
+    try:
+        dm_record = {
+            "influe_name": influe_name,
+            "contact_profile": contact_profile,
+            "status": status,
+            "DM_date": dm_date,
+            "content": content,
+            "message": message
+        }
+        
+        dm_collection.insert_one(dm_record)
+        print(f"MongoDB에 DM 기록이 저장되었습니다: {influe_name}")
+        return True
+    except Exception as e:
+        print(f"MongoDB에 DM 기록 저장 중 오류 발생: {e}")
+        return False
+
 def process_url(driver, url, name, message_template, row, service):
     driver.get(url)
     print(driver.title)
@@ -218,13 +268,45 @@ def process_url(driver, url, name, message_template, row, service):
         # 성공적으로 메시지를 보냈을 때
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         update_sheet_status(service, row, 'Y', timestamp)
+        
+        # MongoDB에 DM 기록 저장
+        save_dm_record_to_mongodb(
+            influe_name=name,
+            contact_profile=profile_name,  # 프로필 폴더명으로 수정
+            status='Y',
+            dm_date=timestamp,
+            content=template_sheet,
+            message=message
+        )
 
     except TimeoutException:
         print("'메시지 보내기' 버튼을 찾을 수 없습니다.")
         update_sheet_status(service, row, 'failed')
+        
+        # 실패 정보도 MongoDB에 저장
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_dm_record_to_mongodb(
+            influe_name=name,
+            contact_profile=profile_name,  # 프로필 폴더명으로 수정
+            status='failed',
+            dm_date=timestamp,
+            content=template_sheet,
+            message="메시지 보내기 버튼을 찾을 수 없음"
+        )
     except NoSuchElementException:
         print("요소를 찾을 수 없습니다.")
         update_sheet_status(service, row, 'failed')
+        
+        # 실패 정보도 MongoDB에 저장
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_dm_record_to_mongodb(
+            influe_name=name,
+            contact_profile=profile_name,  # 프로필 폴더명으로 수정
+            status='failed',
+            dm_date=timestamp,
+            content=template_sheet,
+            message="요소를 찾을 수 없음"
+        )
 
 # 메인 실행 부분
 message_templates = get_message_templates()
@@ -239,4 +321,4 @@ for index, (url, name) in enumerate(url_name_pairs, start=2):  # start=2 because
     time.sleep(5)  # 다음 URL로 이동하기 전 5초 대기
 
 # 브라우저를 닫지 않고 세션 유지
-# driver.quit()  # 필요한 경우 주석 해제
+driver.quit()  # 필요한 경우 주석 해제
