@@ -40,7 +40,7 @@ from dotenv import load_dotenv
 import sys
 # PyQt5 프로필 선택기 임포트
 from dm_ui import select_profile_gui
-# 릴리즈 업데이터 임포트
+# 릴리즈 업데이트 임포트
 from release_updater import ReleaseUpdater
 
 # 환경 변수 로드
@@ -133,22 +133,28 @@ options.add_argument("--disable-cache")
 driver = webdriver.Chrome(options=options)
 
 def get_data_from_sheets():
-    logging.info("URL과 이름 데이터 가져오기 시작")
+    logging.info("URL과 이름, 브랜드, 아이템 데이터 가져오기 시작")
     try:
         creds = get_credentials()
         service = build('sheets', 'v4', credentials=creds)
 
         sheet = service.spreadsheets()
-        # 선택한 시트 사용
+        # 선택한 시트 사용 (A2:F로 범위 확장하여 브랜드와 아이템 정보도 가져옴)
         result = sheet.values().get(spreadsheetId=DM_LIST_SPREADSHEET_ID,
-                                    range=f'{dm_list_sheet}!A2:B').execute()
+                                    range=f'{dm_list_sheet}!A2:F').execute()
         values = result.get('values', [])
 
         if not values:
             logging.warning('스프레드시트에서 데이터를 찾을 수 없습니다.')
             return []
 
-        return [(row[0], row[1] if len(row) > 1 else "") for row in values if row]
+        # URL, 이름, 브랜드, 아이템 정보 반환
+        # E열은 인덱스 4, F열은 인덱스 5
+        return [(row[0], 
+                 row[1] if len(row) > 1 else "", 
+                 row[4] if len(row) > 4 else "",  # 브랜드 정보
+                 row[5] if len(row) > 5 else "")  # 아이템 정보
+                for row in values if row]
     except Exception as e:
         logging.error(f"스프레드시트에서 데이터를 가져오는 중 오류 발생: {e}")
         return []
@@ -189,7 +195,7 @@ def update_sheet_status(service, row, status, timestamp=None):
         body=body
     ).execute()
 
-def process_url(driver, url, name, message_template, row, service):
+def process_url(driver, url, name, brand, item, message_template, row, service):
     driver.get(url)
     print(driver.title)
     wait_time = random.uniform(5, 10)
@@ -206,13 +212,29 @@ def process_url(driver, url, name, message_template, row, service):
         print(f"DM 버튼 클릭 후 대기: {wait_time:.2f}초")
         time.sleep(wait_time)
 
+        # 템플릿의 태그를 실제 데이터로 대체
         message = message_template.replace("{이름}", name)
+        message = message.replace("{브랜드}", brand)
+        message = message.replace("{아이템}", item)
+        
+        # 수정된 부분: 클립보드를 사용하여 메시지 전체를 한 번에 붙여넣기
+        pyperclip.copy(message)
         actions = ActionChains(driver)
-        actions.send_keys(message).perform()
+        # 텍스트 입력 필드에 포커스
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//div[contains(@role, 'textbox')]"))
+        ).click()
+        # 붙여넣기 단축키 사용 (Ctrl+V 또는 Command+V)
+        if sys.platform == 'darwin':  # macOS
+            actions.key_down(Keys.COMMAND).send_keys('v').key_up(Keys.COMMAND).perform()
+        else:  # Windows/Linux
+            actions.key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
+        
         wait_time = random.uniform(5, 10)
         print(f"메시지 입력 후 대기: {wait_time:.2f}초")
         time.sleep(wait_time)
 
+        # Enter 키를 눌러 메시지 전송
         actions.send_keys(Keys.ENTER).perform()
 
         # 성공적으로 메시지를 보냈을 때
@@ -233,9 +255,9 @@ url_name_pairs = get_data_from_sheets()
 creds = get_credentials()
 service = build('sheets', 'v4', credentials=creds)
 
-for index, (url, name) in enumerate(url_name_pairs, start=2):  # start=2 because row 1 is header
+for index, (url, name, brand, item) in enumerate(url_name_pairs, start=2):  # start=2 because row 1 is header
     message_template = random.choice(message_templates)
-    process_url(driver, url, name, message_template, index, service)
+    process_url(driver, url, name, brand, item, message_template, index, service)
     time.sleep(5)  # 다음 URL로 이동하기 전 5초 대기
 
 # 브라우저를 닫지 않고 세션 유지
