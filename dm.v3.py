@@ -257,12 +257,25 @@ def process_url(driver, url, name, message_template, row, service):
         time.sleep(wait_time)
 
         message = message_template.replace("{이름}", name)
+        
+        # 수정된 부분: 클립보드를 사용하여 메시지 전체를 한 번에 붙여넣기
+        pyperclip.copy(message)
         actions = ActionChains(driver)
-        actions.send_keys(message).perform()
+        # 텍스트 입력 필드에 포커스
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//div[contains(@role, 'textbox')]"))
+        ).click()
+        # 붙여넣기 단축키 사용 (Ctrl+V 또는 Command+V)
+        if sys.platform == 'darwin':  # macOS
+            actions.key_down(Keys.COMMAND).send_keys('v').key_up(Keys.COMMAND).perform()
+        else:  # Windows/Linux
+            actions.key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
+        
         wait_time = random.uniform(5, 10)
         print(f"메시지 입력 후 대기: {wait_time:.2f}초")
         time.sleep(wait_time)
 
+        # Enter 키를 눌러 메시지 전송 (엔터)
         actions.send_keys(Keys.ENTER).perform()
 
         # 성공적으로 메시지를 보냈을 때
