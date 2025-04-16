@@ -40,7 +40,7 @@ from dotenv import load_dotenv
 import sys
 # PyQt5 프로필 선택기 임포트
 from dm_ui import select_profile_gui
-# 릴리즈 업데이터 임포트
+# 릴리즈 업데이트 임포트
 from release_updater import ReleaseUpdater
 
 # 환경 변수 로드
@@ -141,14 +141,27 @@ def get_data_from_sheets():
         sheet = service.spreadsheets()
         # 선택한 시트 사용
         result = sheet.values().get(spreadsheetId=DM_LIST_SPREADSHEET_ID,
-                                    range=f'{dm_list_sheet}!A2:B').execute()
+                                    range=f'{dm_list_sheet}!A2:F').execute()  # A-F 열까지 가져오기
         values = result.get('values', [])
 
         if not values:
             logging.warning('스프레드시트에서 데이터를 찾을 수 없습니다.')
             return []
 
-        return [(row[0], row[1] if len(row) > 1 else "") for row in values if row]
+        # URL, 이름, 브랜드, 아이템 데이터 반환 (E열, F열 추가)
+        data_list = []
+        for row in values:
+            if not row:  # 빈 행 건너뛰기
+                continue
+                
+            url = row[0] if len(row) > 0 else ""
+            name = row[1] if len(row) > 1 else ""
+            brand = row[4] if len(row) > 4 else ""  # E열(브랜드)
+            item = row[5] if len(row) > 5 else ""   # F열(아이템)
+            
+            data_list.append((url, name, brand, item))
+            
+        return data_list
     except Exception as e:
         logging.error(f"스프레드시트에서 데이터를 가져오는 중 오류 발생: {e}")
         return []
@@ -189,7 +202,7 @@ def update_sheet_status(service, row, status, timestamp=None):
         body=body
     ).execute()
 
-def process_url(driver, url, name, message_template, row, service):
+def process_url(driver, url, name, brand, item, message_template, row, service):
     driver.get(url)
     print(driver.title)
     wait_time = random.uniform(5, 10)
@@ -206,7 +219,8 @@ def process_url(driver, url, name, message_template, row, service):
         print(f"DM 버튼 클릭 후 대기: {wait_time:.2f}초")
         time.sleep(wait_time)
 
-        message = message_template.replace("{이름}", name)
+        # 모든 변수 적용
+        message = message_template.replace("{이름}", name).replace("{브랜드}", brand).replace("{아이템}", item)
         actions = ActionChains(driver)
         actions.send_keys(message).perform()
         wait_time = random.uniform(5, 10)
@@ -233,9 +247,9 @@ url_name_pairs = get_data_from_sheets()
 creds = get_credentials()
 service = build('sheets', 'v4', credentials=creds)
 
-for index, (url, name) in enumerate(url_name_pairs, start=2):  # start=2 because row 1 is header
+for index, (url, name, brand, item) in enumerate(url_name_pairs, start=2):  # start=2 because row 1 is header
     message_template = random.choice(message_templates)
-    process_url(driver, url, name, message_template, index, service)
+    process_url(driver, url, name, brand, item, message_template, index, service)
     time.sleep(5)  # 다음 URL로 이동하기 전 5초 대기
 
 # 브라우저를 닫지 않고 세션 유지

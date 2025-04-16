@@ -1,3 +1,4 @@
 .env
 __pycache__
 user_data
+VERSION.txt
