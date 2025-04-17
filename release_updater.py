@@ -2,6 +2,8 @@ import os
 import json
 import subprocess
 import requests
+import sys
+import time
 
 class ReleaseUpdater:
     def __init__(self, owner, repo, version_file="VERSION.txt"):
@@ -53,6 +55,13 @@ class ReleaseUpdater:
             print(f"버전 정보 저장 중 오류 발생: {e}")
             return False
     
+    def restart_program(self):
+        """프로그램을 재시작합니다"""
+        print("\n🔄 프로그램을 재시작합니다...")
+        time.sleep(2)  # 사용자가 메시지를 볼 수 있도록 잠시 대기
+        python = sys.executable
+        os.execl(python, python, *sys.argv)
+    
     def update_to_latest(self):
         """최신 릴리즈 버전으로 업데이트합니다"""
         current_version = self.get_current_version()
@@ -87,6 +96,9 @@ class ReleaseUpdater:
                 
                 # 업데이트 후 추가 작업이 필요한 경우 (예: 의존성 설치)
                 self._post_update_actions()
+                
+                # 업데이트 후 프로그램 재시작
+                self.restart_program()
                 
                 return True
             except subprocess.CalledProcessError as e:
