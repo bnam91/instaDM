@@ -17,6 +17,10 @@
 # 5. 브라우저 캐시 관리 및 자동화 감지 회피 기능 포함
 #    - 로그인 정보는 유지하면서 캐시만 정리
 #    - 작업 간 랜덤한 시간 간격 추가
+# 6. MongoDB에 DM 발송 기록 저장
+#    - 데이터베이스: insta09_database
+#    - 컬렉션: gogoya_DmRecords
+#    - 기록 정보: 인플루언서 이름, 프로필, 상태, 발송시간, 템플릿, 메시지 내용
 # 작성일: v2 버전
 
 from selenium import webdriver
@@ -42,6 +46,9 @@ import sys
 from dm_ui import select_profile_gui
 # 릴리즈 업데이트 임포트
 from release_updater import ReleaseUpdater
+# MongoDB 관련 임포트
+from pymongo import MongoClient
+from pymongo.server_api import ServerApi
 
 # 환경 변수 로드
 load_dotenv()
@@ -62,6 +69,22 @@ try:
         print("⚠️ 업데이트 실패, 이전 버전으로 계속 진행합니다...")
 except Exception as e:
     print(f"❌ 버전 확인 중 오류 발생: {e}")
+
+# MongoDB 연결 설정
+uri = "mongodb+srv://coq3820:JmbIOcaEOrvkpQo1@cluster0.qj1ty.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+try:
+    mongo_client = MongoClient(uri, server_api=ServerApi('1'))
+    # 연결 확인
+    mongo_client.admin.command('ping')
+    print("MongoDB 연결 성공!")
+    
+    # 데이터베이스와 컬렉션 선택
+    db = mongo_client['insta09_database']
+    dm_collection = db['gogoya_DmRecords']
+    mongo_connected = True
+except Exception as e:
+    print(f"MongoDB 연결 실패: {e}")
+    mongo_connected = False
 
 def select_user_profile():
     # 현재 스크립트 위치 기준으로 user_data 폴더 경로 생성
@@ -120,6 +143,10 @@ user_data_dir, dm_list_sheet, template_sheet = select_user_profile()
 if not user_data_dir:
     print("프로필 선택 오류. 프로그램을 종료합니다.")
     sys.exit(1)
+
+# 프로필 폴더명 추출 (경로의 마지막 부분)
+profile_name = os.path.basename(user_data_dir)
+print(f"사용 중인 프로필명: {profile_name}")
 
 options.add_argument(f"user-data-dir={user_data_dir}")
 
@@ -198,7 +225,7 @@ def update_sheet_status(service, row, status, timestamp=None):
 def process_url(driver, url, name, brand, item, message_template, row, service):
     driver.get(url)
     print(driver.title)
-    wait_time = random.uniform(5, 10)
+    wait_time = random.uniform(5, 300)
     print(f"URL 접속 후 대기: {wait_time:.2f}초")
     time.sleep(wait_time)
 
@@ -208,45 +235,106 @@ def process_url(driver, url, name, brand, item, message_template, row, service):
         )
         print(f"버튼 텍스트: {message_button.text}")
         message_button.click()
-        wait_time = random.uniform(5, 10)
+        wait_time = random.uniform(5, 60)
         print(f"DM 버튼 클릭 후 대기: {wait_time:.2f}초")
         time.sleep(wait_time)
 
         # 템플릿의 태그를 실제 데이터로 대체
-        message = message_template.replace("{이름}", name)
-        message = message.replace("{브랜드}", brand)
-        message = message.replace("{아이템}", item)
+        message = message_template.replace("{이름}", name).replace("{브랜드}", brand).replace("{아이템}", item)
+        pyperclip.copy(message)  # 메시지를 클립보드에 복사
         
-        # 수정된 부분: 클립보드를 사용하여 메시지 전체를 한 번에 붙여넣기
-        pyperclip.copy(message)
         actions = ActionChains(driver)
         # 텍스트 입력 필드에 포커스
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//div[contains(@role, 'textbox')]"))
         ).click()
+        
         # 붙여넣기 단축키 사용 (Ctrl+V 또는 Command+V)
         if sys.platform == 'darwin':  # macOS
             actions.key_down(Keys.COMMAND).send_keys('v').key_up(Keys.COMMAND).perform()
         else:  # Windows/Linux
             actions.key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
         
-        wait_time = random.uniform(5, 10)
+        wait_time = random.uniform(10, 20)
         print(f"메시지 입력 후 대기: {wait_time:.2f}초")
         time.sleep(wait_time)
 
-        # Enter 키를 눌러 메시지 전송
         actions.send_keys(Keys.ENTER).perform()
 
         # 성공적으로 메시지를 보냈을 때
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         update_sheet_status(service, row, 'Y', timestamp)
+        
+        # MongoDB에 DM 기록 저장
+        save_dm_record_to_mongodb(
+            influe_name=name,
+            contact_profile=profile_name,  # 프로필 폴더명으로 수정
+            status='Y',
+            dm_date=timestamp,
+            content=template_sheet,
+            message=message
+        )
 
     except TimeoutException:
         print("'메시지 보내기' 버튼을 찾을 수 없습니다.")
         update_sheet_status(service, row, 'failed')
+        
+        # 실패 정보도 MongoDB에 저장
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_dm_record_to_mongodb(
+            influe_name=name,
+            contact_profile=profile_name,  # 프로필 폴더명으로 수정
+            status='failed',
+            dm_date=timestamp,
+            content=template_sheet,
+            message="메시지 보내기 버튼을 찾을 수 없음"
+        )
     except NoSuchElementException:
         print("요소를 찾을 수 없습니다.")
         update_sheet_status(service, row, 'failed')
+        
+        # 실패 정보도 MongoDB에 저장
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_dm_record_to_mongodb(
+            influe_name=name,
+            contact_profile=profile_name,  # 프로필 폴더명으로 수정
+            status='failed',
+            dm_date=timestamp,
+            content=template_sheet,
+            message="요소를 찾을 수 없음"
+        )
+
+def save_dm_record_to_mongodb(influe_name, contact_profile, status, dm_date, content, message):
+    """
+    DM 발송 기록을 MongoDB에 저장하는 함수
+    
+    Args:
+        influe_name (str): 인플루언서 이름
+        contact_profile (str): 컨택한 프로필명
+        status (str): 발송 상태 ('Y' 또는 'failed')
+        dm_date (str): 발송 시간
+        content (str): 템플릿 시트명
+        message (str): 실제 발송된 메시지 내용
+    """
+    if not mongo_connected:
+        print("MongoDB에 연결되어 있지 않아 기록을 저장할 수 없습니다.")
+        return
+        
+    try:
+        record = {
+            "influencer_name": influe_name,
+            "contact_profile": contact_profile,
+            "status": status,
+            "dm_date": dm_date,
+            "template_content": content,
+            "message": message,
+            "created_at": datetime.now()
+        }
+        
+        dm_collection.insert_one(record)
+        print(f"MongoDB에 DM 기록 저장 성공: {influe_name}")
+    except Exception as e:
+        print(f"MongoDB에 DM 기록 저장 실패: {e}")
 
 # 메인 실행 부분
 message_templates = get_message_templates()
@@ -258,7 +346,9 @@ service = build('sheets', 'v4', credentials=creds)
 for index, (url, name, brand, item) in enumerate(url_name_pairs, start=2):  # start=2 because row 1 is header
     message_template = random.choice(message_templates)
     process_url(driver, url, name, brand, item, message_template, index, service)
-    time.sleep(5)  # 다음 URL로 이동하기 전 5초 대기
+    wait_time = random.uniform(5, 60)
+    print(f"다음 URL로 이동하기 전 대기: {wait_time:.2f}초")
+    time.sleep(wait_time)
 
 # 브라우저를 닫지 않고 세션 유지
-# driver.quit()  # 필요한 경우 주석 해제
+driver.quit()  # 필요한 경우 주석 해제
