@@ -230,6 +230,25 @@ def process_url(driver, url, name, brand, item, message_template, row, service):
     time.sleep(wait_time)
 
     try:
+        # 먼저 팔로우 버튼 확인
+        try:
+            follow_button = WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located((By.XPATH, 
+                    "//button[.//div[contains(text(), '팔로우') or contains(text(), '팔로잉')]]"))
+            )
+            button_text = follow_button.find_element(By.XPATH, ".//div").text
+            
+            # 팔로우 버튼의 상태를 확인하여 처리
+            if button_text == "팔로우":  # 팔로우 버튼이 "팔로우" 상태일 때
+                follow_button.click()  # 팔로우 버튼 클릭
+                print("팔로우 완료")  # 팔로우 완료 메시지 출력
+                wait_time = random.uniform(4, 12)  # 4~12초 사이 랜덤 대기
+                time.sleep(wait_time)  # 팔로우 후 랜덤 시간 대기
+        except TimeoutException:
+            print("팔로우 버튼이 없거나 이미 팔로우 중입니다.")
+            pass
+
+        # DM 버튼 찾기
         message_button = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'x1i10hfl') and contains(text(), '메시지 보내기')]"))
         )
