@@ -42,8 +42,8 @@ import logging
 from datetime import datetime
 from dotenv import load_dotenv
 import sys
-# PyQt5 프로필 선택기 임포트
-from dm_ui import select_profile_gui
+# Tkinter 프로필 선택기 임포트
+from main_ui import select_profile_gui
 # 릴리즈 업데이트 임포트
 from release_updater import ReleaseUpdater
 # MongoDB 관련 임포트

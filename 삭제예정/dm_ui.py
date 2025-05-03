@@ -10,6 +10,16 @@ from PyQt5.QtGui import QFont, QIcon
 from auth import get_credentials
 from googleapiclient.discovery import build
 
+# PyQt5 플랫폼 플러그인 경로 설정
+if hasattr(sys, 'frozen'):
+    # PyInstaller로 패키징된 경우
+    qt_plugin_path = os.path.join(sys._MEIPASS, 'PyQt5', 'Qt5', 'plugins')
+else:
+    # 일반 Python 환경
+    import PyQt5
+    qt_plugin_path = os.path.join(os.path.dirname(PyQt5.__file__), 'Qt5', 'plugins')
+os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = qt_plugin_path
+
 # 스프레드시트 URL 상수
 DM_LIST_SPREADSHEET_ID = '1VhEWeQASyv02knIghpcccYLgWfJCe2ylUnPsQ_-KNAI'
 TEMPLATE_SPREADSHEET_ID = '1mwZ37jiEGK7rQnLWp87yUQZHyM6LHb4q6mbB0A07fI0'
