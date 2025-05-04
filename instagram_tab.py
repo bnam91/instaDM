@@ -21,6 +21,8 @@ class InstagramTab(ttk.Frame):
         self.user_data_parent = user_data_parent
         self.sheets_service = None
         self.create_widgets()
+        # 초기화 시 시트 목록 자동 로드
+        self.after(100, self.auto_load_sheets)
         
     def create_widgets(self):
         # 메인 컨테이너 프레임 생성
@@ -68,44 +70,35 @@ class InstagramTab(ttk.Frame):
         
         # 초기 데이터 로드
         self.load_profiles()
-        self.after(100, self.auto_load_sheets)
 
     def auto_load_sheets(self):
         """시트 목록을 자동으로 가져옴"""
-        self.load_sheets_btn.config(text="시트 목록 가져오는 중...", state='disabled')
-        self.after(100, self.load_sheet_lists_quietly)
-        
-    def load_sheet_lists_quietly(self):
-        """메시지 없이 조용히 시트 목록을 가져옴"""
-        if not self.get_sheets_service():
-            self.load_sheets_btn.config(text="시트 목록 가져오기", state='normal')
-            return
-            
         try:
+            if not self.get_sheets_service():
+                return
+                
             # DM 목록 스프레드시트의 시트 목록 가져오기
-            self.dm_sheet_combo['values'] = []
             dm_sheets = self.get_sheet_names(DM_LIST_SPREADSHEET_ID)
             self.dm_sheet_combo['values'] = dm_sheets
             
             # 기본값 dm_list 또는 첫 번째 시트 선택
             if "dm_list" in dm_sheets:
                 self.dm_sheet_combo.set("dm_list")
+            elif dm_sheets:
+                self.dm_sheet_combo.set(dm_sheets[0])
             
             # 템플릿 스프레드시트의 시트 목록 가져오기
-            self.template_sheet_combo['values'] = []
             template_sheets = self.get_sheet_names(TEMPLATE_SPREADSHEET_ID)
             self.template_sheet_combo['values'] = template_sheets
             
             # 기본값 협찬문의 또는 첫 번째 시트 선택
             if "협찬문의" in template_sheets:
                 self.template_sheet_combo.set("협찬문의")
-            
-            # 버튼 상태 복원    
-            self.load_sheets_btn.config(text="시트 목록 새로고침", state='normal')
-            
+            elif template_sheets:
+                self.template_sheet_combo.set(template_sheets[0])
+                
         except Exception as e:
-            self.load_sheets_btn.config(text="시트 목록 가져오기", state='normal')
-            messagebox.showerror("오류", f"시트 목록을 가져오는 중 오류가 발생했습니다: {e}")
+            print(f"시트 목록 자동 로드 중 오류 발생: {e}")
 
     def get_sheets_service(self):
         """Google Sheets API 서비스 객체를 생성"""

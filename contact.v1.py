@@ -1,27 +1,29 @@
-# 인스타그램 자동 DM 발송 프로그램
-# 기능:
-# 1. 구글 스프레드시트에서 인스타그램 프로필 URL과 사용자 이름 목록을 가져옴
-#    - 스프레드시트 ID: 1VhEWeQASyv02knIghpcccYLgWfJCe2ylUnPsQ_-KNAI
-#    - 시트 이름: dm_list
-#    - 데이터 구조: A열(URL), B열(이름), C열(발송상태), D열(발송시간)
-# 2. 다른 스프레드시트에서 DM 메시지 템플릿을 무작위로 선택
-#    - 스프레드시트 ID: 1mwZ37jiEGK7rQnLWp87yUQZHyM6LHb4q6mbB0A07fI0
-#    - 시트 이름: 협찬문의
-#    - 데이터 구조: A1:A15 셀에 메시지 템플릿 목록
-#    - 템플릿 내 {이름} 태그는 실제 사용자 이름으로 대체됨
-# 3. 각 프로필을 방문하여 자동으로 DM 메시지 발송
-#    - 실제 발송은 현재 주석 처리되어 있음 (actions.send_keys(Keys.ENTER).perform())
-# 4. 메시지 발송 결과와 시간을 스프레드시트에 기록
-#    - 성공 시: 'Y' + 타임스탬프
-#    - 실패 시: 'failed'
-# 5. 브라우저 캐시 관리 및 자동화 감지 회피 기능 포함
-#    - 로그인 정보는 유지하면서 캐시만 정리
-#    - 작업 간 랜덤한 시간 간격 추가
-# 6. MongoDB에 DM 발송 기록 저장
-#    - 데이터베이스: insta09_database
-#    - 컬렉션: gogoya_DmRecords
-#    - 기록 정보: 인플루언서 이름, 프로필, 상태, 발송시간, 템플릿, 메시지 내용
-# 작성일: v2 버전
+'''
+인스타그램 자동 DM 발송 프로그램
+기능:
+1. 구글 스프레드시트에서 인스타그램 프로필 URL과 사용자 이름 목록을 가져옴
+   - 스프레드시트 ID: 1VhEWeQASyv02knIghpcccYLgWfJCe2ylUnPsQ_-KNAI
+   - 시트 이름: dm_list
+   - 데이터 구조: A열(URL), B열(이름), C열(발송상태), D열(발송시간)
+2. 다른 스프레드시트에서 DM 메시지 템플릿을 무작위로 선택
+   - 스프레드시트 ID: 1mwZ37jiEGK7rQnLWp87yUQZHyM6LHb4q6mbB0A07fI0
+   - 시트 이름: 협찬문의
+   - 데이터 구조: A1:A15 셀에 메시지 템플릿 목록
+   - 템플릿 내 {이름} 태그는 실제 사용자 이름으로 대체됨
+3. 각 프로필을 방문하여 자동으로 DM 메시지 발송
+   - 실제 발송은 현재 주석 처리되어 있음 (actions.send_keys(Keys.ENTER).perform())
+4. 메시지 발송 결과와 시간을 스프레드시트에 기록
+   - 성공 시: 'Y' + 타임스탬프
+   - 실패 시: 'failed'
+5. 브라우저 캐시 관리 및 자동화 감지 회피 기능 포함
+   - 로그인 정보는 유지하면서 캐시만 정리
+   - 작업 간 랜덤한 시간 간격 추가
+6. MongoDB에 DM 발송 기록 저장
+   - 데이터베이스: insta09_database
+   - 컬렉션: gogoya_DmRecords
+   - 기록 정보: 인플루언서 이름, 프로필, 상태, 발송시간, 템플릿, 메시지 내용
+작성일: v2 버전
+'''
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -49,6 +51,7 @@ from release_updater import ReleaseUpdater
 # MongoDB 관련 임포트
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
+from instagram_message import InstagramMessageTemplate
 
 # 환경 변수 로드
 load_dotenv()
@@ -186,26 +189,8 @@ def get_data_from_sheets():
         logging.error(f"스프레드시트에서 데이터를 가져오는 중 오류 발생: {e}")
         return []
 
-def get_message_templates():
-    logging.info("메시지 템플릿 가져오기 시작")
-    try:
-        creds = get_credentials()
-        service = build('sheets', 'v4', credentials=creds)
-
-        sheet = service.spreadsheets()
-        # 선택한 템플릿 시트 사용
-        result = sheet.values().get(spreadsheetId=TEMPLATE_SPREADSHEET_ID,
-                                    range=f'{template_sheet}!A1:A15').execute()
-        values = result.get('values', [])
-
-        if not values:
-            logging.warning('메시지 템플릿을 찾을 수 없습니다.')
-            return ["안녕하세요"]
-
-        return [row[0] for row in values if row]
-    except Exception as e:
-        logging.error(f"메시지 템플릿을 가져오는 중 오류 발생: {e}")
-        return ["안녕하세요"]
+# InstagramMessageTemplate 인스턴스 생성
+message_template = InstagramMessageTemplate(TEMPLATE_SPREADSHEET_ID, template_sheet)
 
 def update_sheet_status(service, row, status, timestamp=None):
     sheet_id = DM_LIST_SPREADSHEET_ID
@@ -259,7 +244,7 @@ def process_url(driver, url, name, brand, item, message_template, row, service):
         time.sleep(wait_time)
 
         # 템플릿의 태그를 실제 데이터로 대체
-        message = message_template.replace("{이름}", name).replace("{브랜드}", brand).replace("{아이템}", item)
+        message = message_template.format_message(message_template, name, brand, item)
         pyperclip.copy(message)  # 메시지를 클립보드에 복사
         
         actions = ActionChains(driver)
@@ -356,7 +341,7 @@ def save_dm_record_to_mongodb(influe_name, contact_profile, status, dm_date, con
         print(f"MongoDB에 DM 기록 저장 실패: {e}")
 
 # 메인 실행 부분
-message_templates = get_message_templates()
+message_templates = message_template.get_message_templates()
 url_name_pairs = get_data_from_sheets()
 
 creds = get_credentials()
