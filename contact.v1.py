@@ -76,7 +76,9 @@ except Exception as e:
 # MongoDB 연결 설정
 uri = "mongodb+srv://coq3820:JmbIOcaEOrvkpQo1@cluster0.qj1ty.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 try:
-    mongo_client = MongoClient(uri, server_api=ServerApi('1'))
+    mongo_client = MongoClient(uri, 
+                             server_api=ServerApi('1'),
+                             tlsAllowInvalidCertificates=True)  # SSL 인증서 검증 비활성화
     # 연결 확인
     mongo_client.admin.command('ping')
     print("MongoDB 연결 성공!")
