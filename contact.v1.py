@@ -216,7 +216,7 @@ def countdown(wait_time, message):
         time.sleep(1)
     print(f"{message} 완료!    ", end='\r')
 
-def process_url(driver, url, name, brand, item, message_template, row, service):
+def process_url(driver, url, name, brand, item, template_manager, row, service):
     driver.get(url)
     print(driver.title)
     wait_time = random.uniform(5, 300)
@@ -248,7 +248,7 @@ def process_url(driver, url, name, brand, item, message_template, row, service):
         wait_time = random.uniform(5, 60)
         countdown(wait_time, "DM 버튼 클릭 후 대기")
 
-        message = message_template.format_message(message_template, name, brand, item)
+        message = template_manager.format_message(template_manager.get_message_templates()[0], name, brand, item)
         pyperclip.copy(message)
         
         actions = ActionChains(driver)
@@ -342,17 +342,16 @@ def save_dm_record_to_mongodb(influe_name, contact_profile, status, dm_date, con
         print(f"MongoDB에 DM 기록 저장 실패: {e}")
 
 # 메인 실행 부분
-message_templates = message_template.get_message_templates()
+template_manager = InstagramMessageTemplate(TEMPLATE_SPREADSHEET_ID, template_sheet)
 url_name_pairs = get_data_from_sheets()
 
 creds = get_credentials()
 service = build('sheets', 'v4', credentials=creds)
 
-for index, (url, name, brand, item) in enumerate(url_name_pairs, start=2):  # start=2 because row 1 is header
-    message_template = random.choice(message_templates)
-    process_url(driver, url, name, brand, item, message_template, index, service)
+for index, (url, name, brand, item) in enumerate(url_name_pairs, start=2):
+    process_url(driver, url, name, brand, item, template_manager, index, service)
     wait_time = random.uniform(5, 60)
-    print(f"다음 URL로 이동하기 전 대기: {wait_time:.2f}초")
+    countdown(wait_time, "다음 URL로 이동하기 전 대기")
     time.sleep(wait_time)
 
 # 브라우저를 닫지 않고 세션 유지
