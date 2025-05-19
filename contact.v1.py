@@ -209,12 +209,18 @@ def update_sheet_status(service, row, status, timestamp=None):
         body=body
     ).execute()
 
+def countdown(wait_time, message):
+    print(f"{message}: {wait_time:.2f}초", end='\r')
+    for remaining in range(int(wait_time), 0, -1):
+        print(f"{message}: {remaining}초 남음    ", end='\r')
+        time.sleep(1)
+    print(f"{message} 완료!    ", end='\r')
+
 def process_url(driver, url, name, brand, item, message_template, row, service):
     driver.get(url)
     print(driver.title)
     wait_time = random.uniform(5, 300)
-    print(f"URL 접속 후 대기: {wait_time:.2f}초")
-    time.sleep(wait_time)
+    countdown(wait_time, "URL 접속 후 대기")
 
     try:
         # 먼저 팔로우 버튼 확인
@@ -225,45 +231,38 @@ def process_url(driver, url, name, brand, item, message_template, row, service):
             )
             button_text = follow_button.find_element(By.XPATH, ".//div").text
             
-            # 팔로우 버튼의 상태를 확인하여 처리
-            if button_text == "팔로우":  # 팔로우 버튼이 "팔로우" 상태일 때
-                follow_button.click()  # 팔로우 버튼 클릭
-                print("팔로우 완료")  # 팔로우 완료 메시지 출력
-                wait_time = random.uniform(4, 12)  # 4~12초 사이 랜덤 대기
-                time.sleep(wait_time)  # 팔로우 후 랜덤 시간 대기
+            if button_text == "팔로우":
+                follow_button.click()
+                print("팔로우 완료")
+                wait_time = random.uniform(4, 12)
+                countdown(wait_time, "팔로우 후 대기")
         except TimeoutException:
             print("팔로우 버튼이 없거나 이미 팔로우 중입니다.")
             pass
 
-        # DM 버튼 찾기
         message_button = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'x1i10hfl') and contains(text(), '메시지 보내기')]"))
         )
         print(f"버튼 텍스트: {message_button.text}")
         message_button.click()
         wait_time = random.uniform(5, 60)
-        print(f"DM 버튼 클릭 후 대기: {wait_time:.2f}초")
-        time.sleep(wait_time)
+        countdown(wait_time, "DM 버튼 클릭 후 대기")
 
-        # 템플릿의 태그를 실제 데이터로 대체
         message = message_template.format_message(message_template, name, brand, item)
-        pyperclip.copy(message)  # 메시지를 클립보드에 복사
+        pyperclip.copy(message)
         
         actions = ActionChains(driver)
-        # 텍스트 입력 필드에 포커스
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//div[contains(@role, 'textbox')]"))
         ).click()
         
-        # 붙여넣기 단축키 사용 (Ctrl+V 또는 Command+V)
-        if sys.platform == 'darwin':  # macOS
+        if sys.platform == 'darwin':
             actions.key_down(Keys.COMMAND).send_keys('v').key_up(Keys.COMMAND).perform()
-        else:  # Windows/Linux
+        else:
             actions.key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
         
         wait_time = random.uniform(10, 20)
-        print(f"메시지 입력 후 대기: {wait_time:.2f}초")
-        time.sleep(wait_time)
+        countdown(wait_time, "메시지 입력 후 대기")
 
         actions.send_keys(Keys.ENTER).perform()
 
