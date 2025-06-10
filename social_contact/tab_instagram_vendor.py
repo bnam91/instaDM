@@ -52,6 +52,7 @@ import sys
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 from instagram_message_vendor import InstagramMessageTemplate
+from pathlib import Path
 
 # 환경 변수 로드
 load_dotenv()
@@ -75,6 +76,13 @@ try:
 except Exception as e:
     print(f"MongoDB 연결 실패: {e}")
     mongo_connected = False
+
+# 프로젝트 루트 디렉토리를 파이썬 경로에 추가
+project_root = Path(__file__).parent.parent.absolute()
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+from notion_module.notion_reader import get_database_items, extract_page_id_from_url, print_database_items
 
 def clear_chrome_data(user_data_dir, keep_login=True):
     default_dir = os.path.join(user_data_dir, 'Default')
@@ -137,9 +145,9 @@ def get_data_from_sheets(service, selected_sheet):
     logging.info("URL과 이름 데이터 가져오기 시작")
     try:
         sheet = service.spreadsheets()
-        # A열(URL), B열(이름), E열(노션리스트), G열, H열까지 가져오도록 수정
+        # A열(URL), B열(이름), E열(노션리스트), G열, H열, K열까지 가져오도록 수정
         result = sheet.values().get(spreadsheetId=DM_LIST_SPREADSHEET_ID,
-                                    range=f'{selected_sheet}!A2:H').execute()
+                                    range=f'{selected_sheet}!A2:K').execute()
         values = result.get('values', [])
 
         if not values:
@@ -147,15 +155,70 @@ def get_data_from_sheets(service, selected_sheet):
             return []
 
         # URL, 이름, 노션리스트, G열 값 반환
-        return [(row[0], 
-                 row[1] if len(row) > 1 else "", 
-                 row[4] if len(row) > 4 else "",  # 노션리스트
-                 row[6] if len(row) > 6 else "")  # G열 값
-                for row in values 
-                if row and 
-                   (len(row) < 8 or not row[7]) and  # H열이 비어있음
-                   len(row) > 6 and row[6] and  # G열에 값이 있음
-                   row[6].isdigit() and len(row[6]) == 6]  # G열이 6자리 숫자인 경우만
+        url_name_pairs = []
+        for row in values:
+            if (row and 
+                (len(row) < 8 or not row[7]) and  # H열이 비어있음
+                len(row) > 6 and row[6] and  # G열에 값이 있음
+                row[6].isdigit() and len(row[6]) == 6):  # G열이 6자리 숫자인 경우만
+                
+                notion_url = row[4] if len(row) > 4 else ""  # E열에서 노션 URL
+                total_list_url = row[10] if len(row) > 10 else ""  # K열에서 전체 리스트 URL
+                
+                if notion_url:
+                    try:
+                        page_id = extract_page_id_from_url(notion_url)
+                        items = get_database_items(page_id)
+                        
+                        if items:
+                            product_list = []
+                            for idx, item in enumerate(items, 1):
+                                try:
+                                    properties = item.get('properties', {})
+                                    brand = ""
+                                    item_name = ""
+                                    
+                                    for prop_name, prop_value in properties.items():
+                                        try:
+                                            if prop_value.get('type') == 'title':
+                                                title_array = prop_value.get('title', [])
+                                                if title_array and len(title_array) > 0:
+                                                    brand = title_array[0].get('plain_text', '')
+                                            elif prop_value.get('type') == 'rich_text':
+                                                rich_text = prop_value.get('rich_text', [])
+                                                if rich_text and len(rich_text) > 0:
+                                                    text = rich_text[0].get('plain_text', '')
+                                                    if prop_name == '2.아이템':
+                                                        item_name = text
+                                        except Exception as e:
+                                            logging.error(f"속성 처리 중 오류 발생: {e}")
+                                            continue
+                                    
+                                    if brand and item_name:
+                                        product_list.append(f"{idx}. {brand} - {item_name}")
+                                except Exception as e:
+                                    logging.error(f"아이템 처리 중 오류 발생: {e}")
+                                    continue
+                            
+                            notion_list = "\n".join(product_list) if product_list else ""
+                        else:
+                            notion_list = ""
+                    except Exception as e:
+                        logging.error(f"노션 데이터를 가져오는 중 오류 발생: {e}")
+                        notion_list = ""
+                else:
+                    notion_list = ""
+                
+                url_name_pairs.append((
+                    row[0],  # URL
+                    row[1] if len(row) > 1 else "",  # 이름
+                    notion_list,  # 노션에서 가져온 상품 리스트
+                    row[6] if len(row) > 6 else "",  # G열 값
+                    total_list_url  # K열에서 가져온 전체 리스트 URL
+                ))
+        
+        return url_name_pairs
+
     except Exception as e:
         logging.error(f"스프레드시트에서 데이터를 가져오는 중 오류 발생: {e}")
         return []
@@ -187,7 +250,7 @@ def countdown(wait_time, message):
         time.sleep(1)
     print(f"{message} 완료!    ", end='\r')
 
-def process_url(driver, url, name, notion_list, g_value, template_manager, row, service, sheet_name, user_data_dir):
+def process_url(driver, url, name, notion_list, g_value, total_list, template_manager, row, service, sheet_name, user_data_dir):
     driver.get(url)
     print(driver.title)
     wait_time = random.uniform(5, 10) #원래 300초였음
@@ -219,7 +282,7 @@ def process_url(driver, url, name, notion_list, g_value, template_manager, row, 
         wait_time = random.uniform(5, 20) #원래 60초였음
         countdown(wait_time, "DM 버튼 클릭 후 대기")
 
-        message = template_manager.format_message(template_manager.get_message_templates()[0], name, notion_list)
+        message = template_manager.format_message(template_manager.get_message_templates()[0], name, notion_list, total_list)
         pyperclip.copy(message)
         
         actions = ActionChains(driver)
@@ -447,7 +510,7 @@ def main():
     
     # 발송할 인플루언서 목록 표시
     print("\n발송할 인플루언서 목록:")
-    for idx, (url, name, notion_list, g_value) in enumerate(url_name_pairs, 1):
+    for idx, (url, name, notion_list, g_value, total_list) in enumerate(url_name_pairs, 1):
         print(f"{idx}. {name} ({g_value})")
     
     confirm = input("\nDM을 발송하시겠습니까? (Y/N): ").upper()
@@ -474,9 +537,9 @@ def main():
     print("\nDM 발송을 시작합니다...")
     
     # 각 URL 처리
-    for index, (url, name, notion_list, g_value) in enumerate(url_name_pairs, start=2):
+    for index, (url, name, notion_list, g_value, total_list) in enumerate(url_name_pairs, start=2):
         print(f"\n[{index-1}/{len(url_name_pairs)}] {name} ({g_value})")
-        process_url(driver, url, name, notion_list, g_value, template_manager, index, service, selected_sheet, user_data_dir)
+        process_url(driver, url, name, notion_list, g_value, total_list, template_manager, index, service, selected_sheet, user_data_dir)
         wait_time = random.uniform(5, 60)
         countdown(wait_time, "다음 URL로 이동하기 전 대기")
 

@@ -1,7 +1,36 @@
 import random
 import logging
+import sys
+from pathlib import Path
 from googleapiclient.discovery import build
 from auth import get_credentials
+from datetime import datetime
+import calendar
+
+# 프로젝트 루트 디렉토리를 파이썬 경로에 추가
+project_root = Path(__file__).parent.parent.absolute()
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+from notion_module.notion_reader import get_database_items, extract_page_id_from_url, print_database_items
+
+def get_week_number(date):
+    """
+    주어진 날짜의 주차를 계산하는 함수
+    
+    Args:
+        date (datetime): 날짜
+        
+    Returns:
+        int: 주차 (1-5)
+    """
+    # 해당 월의 첫 날
+    first_day = date.replace(day=1)
+    # 첫 날의 요일 (0: 월요일, 6: 일요일)
+    first_day_weekday = first_day.weekday()
+    # 해당 날짜가 몇 번째 주인지 계산
+    week_number = ((date.day + first_day_weekday - 1) // 7) + 1
+    return week_number
 
 class InstagramMessageTemplate:
     def __init__(self, template_sheet_id, template_sheet_name):
@@ -45,7 +74,7 @@ class InstagramMessageTemplate:
             logging.error(f"메시지 템플릿을 가져오는 중 오류 발생: {e}")
             return ["안녕하세요"]
 
-    def format_message(self, template, name="", notion_list=""):
+    def format_message(self, template, name="", notion_list="", total_list=""):
         """
         템플릿의 변수를 실제 값으로 대체하는 함수
         
@@ -53,8 +82,18 @@ class InstagramMessageTemplate:
             template (str): 메시지 템플릿
             name (str): 인플루언서 이름
             notion_list (str): 노션 리스트
+            total_list (str): 전체 리스트
             
         Returns:
             str: 변수가 대체된 메시지
         """
-        return template.replace("{이름}", name).replace("{노션리스트}", notion_list) 
+        # 현재 날짜 기준으로 주차 계산
+        now = datetime.now()
+        week_number = get_week_number(now)
+        week_date = f"{now.month}월 {week_number}주차"
+        
+        return template.replace("{이름}", name)\
+                      .replace("{노션리스트}", notion_list)\
+                      .replace("{전체리스트}", total_list)\
+                      .replace("{상품리스트}", notion_list)\
+                      .replace("{주날짜}", week_date)  # 주날짜 변수 추가 
