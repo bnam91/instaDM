@@ -166,7 +166,7 @@ def get_data_from_sheets(service, selected_sheet):
                 notion_url = row[4] if len(row) > 4 else ""  # E열에서 노션 URL
                 total_list_url = row[10] if len(row) > 10 else ""  # K열에서 전체 리스트 URL
                 
-                if notion_url:
+                if notion_url and "notion.so" in notion_url:  # 노션 URL인 경우에만 처리
                     try:
                         page_id = extract_page_id_from_url(notion_url)
                         items = get_database_items(page_id)
