@@ -350,7 +350,7 @@ service = build('sheets', 'v4', credentials=creds)
 
 for index, (url, name, brand, item) in enumerate(url_name_pairs, start=2):
     process_url(driver, url, name, brand, item, template_manager, index, service)
-    wait_time = random.uniform(5, 60)
+    wait_time = random.uniform(5, 40)
     countdown(wait_time, "다음 URL로 이동하기 전 대기")
     time.sleep(wait_time)
 

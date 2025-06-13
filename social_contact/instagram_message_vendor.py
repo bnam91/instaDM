@@ -16,7 +16,7 @@ from notion_module.notion_reader import get_database_items, extract_page_id_from
 
 def get_week_number(date):
     """
-    주어진 날짜의 주차를 계산하는 함수
+    주어진 날짜의 주차를 계산하는 함수 (2025년 기준)
     
     Args:
         date (datetime): 날짜
@@ -26,8 +26,11 @@ def get_week_number(date):
     """
     # 해당 월의 첫 날
     first_day = date.replace(day=1)
-    # 첫 날의 요일 (0: 월요일, 6: 일요일)
-    first_day_weekday = first_day.weekday()
+    # 첫 날의 요일 (0: 일요일, 6: 토요일)
+    first_day_weekday = first_day.weekday() + 1  # 월요일(0)을 일요일(0)로 변경
+    if first_day_weekday == 7:  # 토요일인 경우
+        first_day_weekday = 0
+        
     # 해당 날짜가 몇 번째 주인지 계산
     week_number = ((date.day + first_day_weekday - 1) // 7) + 1
     return week_number

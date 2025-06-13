@@ -30,6 +30,7 @@ https://docs.google.com/spreadsheets/d/1mwZ37jiEGK7rQnLWp87yUQZHyM6LHb4q6mbB0A07
 
 
 '''
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import random
@@ -154,9 +155,9 @@ def get_data_from_sheets(service, selected_sheet):
             logging.warning('스프레드시트에서 데이터를 찾을 수 없습니다.')
             return []
 
-        # URL, 이름, 노션리스트, G열 값 반환
+        # URL, 이름, 노션리스트, G열 값 반환 (실제 행 번호 포함)
         url_name_pairs = []
-        for row in values:
+        for row_idx, row in enumerate(values, start=2):  # 실제 스프레드시트의 행 번호 사용
             if (row and 
                 (len(row) < 8 or not row[7]) and  # H열이 비어있음
                 len(row) > 6 and row[6] and  # G열에 값이 있음
@@ -214,7 +215,8 @@ def get_data_from_sheets(service, selected_sheet):
                     row[1] if len(row) > 1 else "",  # 이름
                     notion_list,  # 노션에서 가져온 상품 리스트
                     row[6] if len(row) > 6 else "",  # G열 값
-                    total_list_url  # K열에서 가져온 전체 리스트 URL
+                    total_list_url,  # K열에서 가져온 전체 리스트 URL
+                    row_idx  # 실제 스프레드시트의 행 번호
                 ))
         
         return url_name_pairs
@@ -457,7 +459,7 @@ def select_profile(user_data_parent):
 
 def main():
     # 사용자 프로필 경로 설정
-    user_data_parent = r"C:\Users\신현빈\Desktop\github\instaDM\user_data"
+    user_data_parent = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "user_data")
     
     # 프로필 선택
     selected_profile = select_profile(user_data_parent)
@@ -510,7 +512,7 @@ def main():
     
     # 발송할 인플루언서 목록 표시
     print("\n발송할 인플루언서 목록:")
-    for idx, (url, name, notion_list, g_value, total_list) in enumerate(url_name_pairs, 1):
+    for idx, (url, name, notion_list, g_value, total_list, row_num) in enumerate(url_name_pairs, 1):
         print(f"{idx}. {name} ({g_value})")
     
     confirm = input("\nDM을 발송하시겠습니까? (Y/N): ").upper()
@@ -537,9 +539,9 @@ def main():
     print("\nDM 발송을 시작합니다...")
     
     # 각 URL 처리
-    for index, (url, name, notion_list, g_value, total_list) in enumerate(url_name_pairs, start=2):
-        print(f"\n[{index-1}/{len(url_name_pairs)}] {name} ({g_value})")
-        process_url(driver, url, name, notion_list, g_value, total_list, template_manager, index, service, selected_sheet, user_data_dir)
+    for index, (url, name, notion_list, g_value, total_list, row_num) in enumerate(url_name_pairs, 1):
+        print(f"\n[{index}/{len(url_name_pairs)}] {name} ({g_value})")
+        process_url(driver, url, name, notion_list, g_value, total_list, template_manager, row_num, service, selected_sheet, user_data_dir)
         wait_time = random.uniform(5, 60)
         countdown(wait_time, "다음 URL로 이동하기 전 대기")
 
