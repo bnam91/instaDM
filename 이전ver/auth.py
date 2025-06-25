@@ -36,12 +36,12 @@ def ensure_token_dir():
 def delete_token_file():
     """토큰 파일 삭제"""
     token_path = get_token_path()
-    try:
-        if os.path.exists(token_path):
+    if os.path.exists(token_path):
+        try:
             os.remove(token_path)
-            print("토큰 파일이 삭제되었습니다.")
-    except Exception as e:
-        print(f"토큰 파일 삭제 중 오류 발생: {e}")
+            print("기존 토큰 파일이 삭제되었습니다. 새로운 인증을 시작합니다.")
+        except Exception as e:
+            print(f"토큰 파일 삭제 중 오류 발생: {e}")
 
 def get_credentials():
     """OAuth2 인증을 통해 자격 증명 반환"""
@@ -54,18 +54,10 @@ def get_credentials():
         try:
             creds = Credentials.from_authorized_user_file(token_path, SCOPES)
             # 2. 토큰이 유효하지 않거나 만료되었으면 삭제
-            if not creds.valid:
-                if creds.expired and creds.refresh_token:
-                    try:
-                        creds.refresh(Request())
-                    except RefreshError:
-                        print("토큰 갱신 실패. 토큰을 삭제하고 재인증을 시도합니다.")
-                        delete_token_file()
-                        creds = None
-                else:
-                    print("토큰이 유효하지 않습니다. 토큰을 삭제하고 재인증을 시도합니다.")
-                    delete_token_file()
-                    creds = None
+            if not creds.valid or (hasattr(creds, 'expired') and creds.expired):
+                print("토큰이 만료되었거나 유효하지 않습니다. 토큰 파일을 삭제합니다.")
+                delete_token_file()
+                creds = None
         except Exception as e:
             print(f"토큰 로드 중 오류 발생: {e}")
             delete_token_file()
@@ -73,27 +65,21 @@ def get_credentials():
 
     # 3. creds가 None이면 새 인증 플로우 시작
     if not creds:
-        try:
-            flow = InstalledAppFlow.from_client_config(
-                {
-                    "installed": {
-                        "client_id": CLIENT_ID,
-                        "client_secret": CLIENT_SECRET,
-                        "redirect_uris": ["http://localhost"],
-                        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-                        "token_uri": "https://oauth2.googleapis.com/token",
-                    }
-                },
-                SCOPES
-            )
-            creds = flow.run_local_server(port=0)
-            # 새 토큰 저장
-            with open(token_path, 'w') as token:
-                token.write(creds.to_json())
-        except Exception as e:
-            print(f"새로운 인증 과정 중 오류 발생: {e}")
-            if os.path.exists(token_path):
-                delete_token_file()
-            raise
+        flow = InstalledAppFlow.from_client_config(
+            {
+                "installed": {
+                    "client_id": CLIENT_ID,
+                    "client_secret": CLIENT_SECRET,
+                    "redirect_uris": ["http://localhost"],
+                    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                    "token_uri": "https://oauth2.googleapis.com/token",
+                }
+            },
+            SCOPES
+        )
+        creds = flow.run_local_server(port=0)
+        # 새 토큰 저장
+        with open(token_path, 'w') as token:
+            token.write(creds.to_json())
 
     return creds
