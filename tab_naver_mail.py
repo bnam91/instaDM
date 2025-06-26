@@ -1,4 +1,5 @@
-#token 자동삭제ver
+# token 자동삭제ver
+# https://docs.google.com/spreadsheets/d/1yG0Z5xPcGwQs2NRmqZifz0LYTwdkaBwcihheA13ynos/edit?gid=1906694512#gid=1906694512
 
 import logging
 from selenium import webdriver
