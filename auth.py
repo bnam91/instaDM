@@ -53,33 +53,36 @@ def get_credentials():
     if os.path.exists(token_path):
         try:
             creds = Credentials.from_authorized_user_file(token_path, SCOPES)
-            # 2. 토큰이 유효하지 않거나 만료되었으면 삭제
-            if not creds.valid:
-                if creds.expired and creds.refresh_token:
-                    try:
-                        creds.refresh(Request())
-                    except RefreshError:
-                        print("토큰 갱신 실패. 토큰을 삭제하고 재인증을 시도합니다.")
-                        delete_token_file()
-                        creds = None
-                else:
-                    print("토큰이 유효하지 않습니다. 토큰을 삭제하고 재인증을 시도합니다.")
-                    delete_token_file()
-                    creds = None
         except Exception as e:
             print(f"토큰 로드 중 오류 발생: {e}")
             delete_token_file()
             creds = None
 
+    # 2. 토큰이 유효하지 않거나 만료되었으면 갱신 시도
+    if creds and not creds.valid:
+        if creds.expired and creds.refresh_token:
+            try:
+                creds.refresh(Request())
+            except RefreshError:
+                print("토큰 갱신 실패. 토큰을 삭제하고 재인증을 시도합니다.")
+                delete_token_file()
+                creds = None
+        else:
+            delete_token_file()
+            creds = None
+
     # 3. creds가 None이면 새 인증 플로우 시작
     if not creds:
+        if not CLIENT_ID or not CLIENT_SECRET:
+            raise ValueError("환경 변수에서 GOOGLE_CLIENT_ID와 GOOGLE_CLIENT_SECRET를 찾을 수 없습니다.")
+            
         try:
             flow = InstalledAppFlow.from_client_config(
                 {
                     "installed": {
                         "client_id": CLIENT_ID,
                         "client_secret": CLIENT_SECRET,
-                        "redirect_uris": ["http://localhost"],
+                        "redirect_uris": ["http://localhost:0"],
                         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
                         "token_uri": "https://oauth2.googleapis.com/token",
                     }
@@ -87,9 +90,11 @@ def get_credentials():
                 SCOPES
             )
             creds = flow.run_local_server(port=0)
+            
             # 새 토큰 저장
             with open(token_path, 'w') as token:
                 token.write(creds.to_json())
+                print("새로운 토큰이 저장되었습니다.")
         except Exception as e:
             print(f"새로운 인증 과정 중 오류 발생: {e}")
             if os.path.exists(token_path):
