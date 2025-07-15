@@ -36,8 +36,8 @@ class NaverBlogScraper:
         # 구글 시트 설정
         self.spreadsheet_id = "1VbtK0Q9iUG3VvbJJAlsb0NzzuA6RFFxmIFKmIuzYEQ0"
         self.second_spreadsheet_id = "1yG0Z5xPcGwQs2NRmqZifz0LYTwdkaBwcihheA13ynos"
-        self.sheet_name = "키워드"
-        self.result_sheet_name = "현황판"
+        self.sheet_name = "블로그_키워드"
+        self.result_sheet_name = "블로그_현황판"
         self.second_result_sheet_name = "유다모"  # 두 번째 스프레드시트의 시트 이름을 '유다모'로 변경
         self.sheet_url = f"https://docs.google.com/spreadsheets/d/{self.spreadsheet_id}/edit#gid=0"
         
