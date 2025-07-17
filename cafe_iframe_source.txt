@@ -1,0 +1,3518 @@
+<html lang="ko"><head>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html;charset=KSC5601">
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<title>『여우야』뷰티카페 (성형수술/화장품/성형후기/이벤트/체험단) : 네이버 카페</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?2">
+<meta name="referrer" content="always">
+
+<link rel="stylesheet" href="/static/css/main/css/line_sticker-1644284985000-9453.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/comment-1644284985000-17199.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/map/cafe_map-1644284985000-14563.css" type="text/css">
+
+
+
+    
+        
+    
+    
+
+<style id="myCafeIntroCss" type="text/css">
+</style>
+<link rel="stylesheet" href="/static/css/main/css/wide/1080_cafe-1752540786000-230709.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/wide/1080_skin_white-1644284985000-20365.css" type="text/css">
+
+
+
+
+
+ <script>
+var g_sUserId = "";
+var g_sUserMemberKey = ""
+var g_sGroupId = "false";
+var g_sCafeHome = "https://cafe.naver.com/" + "feko";
+var g_sClubId = "10912875";
+var g_mobileWebLink = "https://m.cafe.naver.com/feko";
+
+var g_sCafeThumbUrl = 'https://cafethumb.pstatic.net';
+var g_sUpcafeUrl = 'https://up.cafe.naver.com';
+var g_sCafeUrl = "https://cafe.naver.com";
+var g_sCafeUrlOnly = "feko";
+var g_sCafeImgUrl = 'https://cafe.pstatic.net';
+var g_sCafeFileUrl = 'https://cafefiles.pstatic.net';
+var g_sLoginUrl = "http://nid.naver.com";
+var g_sNidHttps = 'https://nid.naver.com';
+var g_sCafeSectionUrl = "https://section.cafe.naver.com";
+var g_sNdriveHttps = "https://mybox.naver.com";
+var g_sKin = "http://kin.naver.com";
+var g_sLogOutReturnUrl = "https://nid.naver.com/nidlogin.login?mode=form&svctype=40960&id=&url=https://cafe.naver.com/LoginCheck.nhn?m=login";
+var g_sCafeTalk = 'https://talk.cafe.naver.com';
+var g_sCafeTalkApiGw = 'https://apis.naver.com/cafe-web/cafe-talk';
+var g_sGfmarketDomain = 'https://m.gfmarket.naver.com';
+var g_sGfmarketThumbnailDomain = 'https://storep-phinf.pstatic.net';
+var g_sPhotoInfraUploadDomain = 'cafe.upphoto.naver.com';
+var g_sPhotoInfraUploaderDomain = window.location.protocol === 'https:' ? 'https://cafe.upphoto.naver.com' : 'http://cafe.upphoto.naver.com';
+var g_sDThumbUrl = 'https://dthumb-phinf.pstatic.net/?src=';
+var g_sNaverStatUiUrl = 'https://cafe.stat.naver.com/cafe';
+var g_sBAStatDomain = 'https://scv-cafe.io.naver.com';
+var g_sApigwUrl = 'https://apis.naver.com';
+var g_sCafeHomePcUrl = 'https://section.cafe.naver.com';
+var g_sCalendar = 'https://calendar.naver.com';
+
+var g_sNicknameRegex = /([a-zA-Z0-9ㄱ-힣\_\s]+)/gi;
+var g_mainIframeWidth = '860';
+</script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jindo.all-1663739945000-91036.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cssquery-1644284985000-18676.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jindo/common_util-1644284985000-4535.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/widget-1644284985000-2800.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_common_wide-1732525821000-25618.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_crossdomain_message-1644284985000-4425.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_eventutil-1644284985000-2096.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/autosourcing-1644284985000-8747.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/AjaxRequest-1644284985000-16024.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/click/clickcr-1744362621000-20272.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lcslog-1644284985000-26709.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/TabletHandler-1644284985000-2403.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/skipNavigationWebkit-1644284985000-907.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/editor/MainLocalStorage-1713398471000-1920.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/IframeHandler-1644284985000-2279.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/PowerCafeNoticeLayer-1644284985000-1880.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/TownCafeSelectLayer-1644284985000-1461.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/da/ActiveViewPC-1644284985000-8868.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var nsc = g_ssc = "cafe.mycafe";
+	var oCL = new Ju.controlLayer(); // Ju.controlLayer() 클래스를 oCL 전역 변수에 할당함
+	var LH = new LH_create();
+	window.onload = LH_exec;
+
+	if (false==true) {
+		blockMouseRight();
+	}
+//--------------- Mac Safari bug --------------------------
+function controlTagClickEvent(e){
+	if(!!$Agent() && $Agent().macSafari ){
+	 	var controlTagName = ["a"];
+	 	var elTarget = e.element,
+	 		sTargetUrl = null;
+	 	if(elTarget != null ){
+	 		if(elTarget.tagName.toLowerCase() == "a" && elTarget.href+"" != document.location.href+"#"){
+	 			elTarget.target="_top";
+	 		}
+	 		return ;
+	 	}
+	}
+}
+
+(function() {
+	if(!!$Agent() && $Agent().macSafari ){
+		Event.register(window, "load", function() {
+			if($('main-area') != null){
+				Event.register($('main-area'), 'click', this.controlTagClickEvent.bindForEvent(this));
+			}
+		});
+	}
+})();
+//--------------- Mac Safari bug End --------------------------
+</script>
+
+
+
+
+<meta name="decorator" content="mycafe_main_for_wide">
+
+
+
+<meta name="myCafeIntro" content="true">
+<meta http-equiv="Content-Type" content="text/html;charset=euc-kr">
+<script type="text/javascript" src="/static/js/mycafe/common/storyphoto/original_viewer-1715595818000-41847.js" charset="utf-8"></script>
+
+
+
+<script type="text/javascript">
+var oIframeHandler = new IframeHandler({
+	bRelocation : false,
+	sDomain : "http://cafe.naver.com",
+	sCafeUrl : "feko"
+});
+</script><style type="text/css">
+</style>
+
+<style type="text/css">div.autosourcing-stub {position:absolute;opacity:0}</style></head>
+<body class="" marginwidth="0" marginheight="0">
+
+
+
+<div id="cafe-body-skin">
+	<div id="cafe-body" style="width:860px">
+		<div id="content-area">
+			<div id="main-area" class="skin-1080">
+				
+
+
+
+
+
+
+
+<script type="text/javascript">
+    //회원정보 변경
+    function cafeMemberInfoEdit() {
+        open_window("/ca-fe/cafes/10912875/members//profile-setting", "popup", 500, 780, "toolbar=0,menubar=0,scrollbars=yes,resizable=yes");
+    }
+</script>
+<!-- 개별 카페 문구 본문 -->
+
+
+
+
+
+
+
+	
+	
+		
+			<div id="cafepopup_18912" class="box_notice">
+				<!-- Template  --> 
+ <dl> 
+ <dt><strong class="type">안전한 카페, 별명 정책이 바뀝니다!</strong></dt> 
+ <dd><p class="txt"> 운영진 사칭 방지를 위한 금칙어를 적용합니다. </p><p><span><a href="https://cafe.naver.com/cafesupport/194314" class="link_more" target="_blank" onclick="clickcr(this,'bnn.body','','',event);">자세히보기&gt;</a></span></p><p></p></dd> 
+ </dl> 
+				
+					<a href="#" onclick="setCafePopupView('cafepopup_18912');clickcr(this,'bnn.close','','',event);return false" class="close _stopDefault"><span class="ico_newcafe">닫기</span></a>
+				
+			</div>
+		
+		
+	
+	
+
+
+<div id="appDownload" style="display:none;position:absolute;top:47px;left:447px;z-index:10;padding:10px 12px 12px;border:2px solid #24b728;background:#fff">
+	<div style="width:252px">
+		<p style="margin-left:-1px;line-height:16px;color:#333"><strong><span style="color:#30b229">카페앱</span>을 설치해보세요!</strong></p>
+		<div style="overflow:hidden;padding-top:6px">
+			<div style="float:left;"><span style="display:inline-block;width:68px;height:84px;background:url(https://cafe.pstatic.net/img/ly_cafeapp_qrcode.gif) no-repeat 0 0"></span></div>
+			<div style="float:left;padding:0 15px 0 9px">
+				<a href="#" onclick="sendURL();" style="display:inline-block;overflow:hidden;width:107px;height:28px;background:url(https://cafe.pstatic.net/img/ly_cafeapp_qrcode.gif) no-repeat 0 -87px;line-height:100px;vertical-align:top">설치 URL 문자 전송</a>
+				<p style="margin:0 0 8px -1px;padding-top:4px;font-size:11px;line-height:15px;color:#999;letter-spacing:-1px">입력하신 번호는 저장되지 않고, <br>전송은 무료입니다.</p>
+				<a href="http://mobile.naver.com/service/cafe" target="_blank" style="display:inline-block;margin-left:-2px;padding-right:7px;background:url(https://cafe.pstatic.net/img/ly_cafeapp_qrcode.gif) no-repeat 100% -123px;font-size:11px;line-height:15px;color:#333;letter-spacing:-1px;text-decoration:underline">모바일 카페 소개</a>
+			</div>
+		</div>
+	</div>
+	<a href="#" onclick="hideAppDownloadLayer();" style="display:inline-block;overflow:hidden;position:absolute;top:2px;right:2px;width:21px;height:21px;background:url(https://cafe.pstatic.net/img/ly_cafeapp_qrcode.gif) no-repeat 100% 0;line-height:100px;vertical-align:top">닫기</a>
+</div>
+
+<script type="text/javascript">
+getCheck();
+function getCheck() {
+	var popupCookie = document.cookie;
+	var startPoint = popupCookie.indexOf("hidePopupid=");
+
+	if(startPoint != -1){
+		var start = startPoint + 12;
+		var end = popupCookie.indexOf(";", start);
+		if(end == -1) end = popupCookie.length;
+		var value = popupCookie.substring(start, end);
+		value = decodeURIComponent(value);
+		
+		var comma = value.length;
+		while(comma > 0){
+			var comma = value.indexOf("\,");
+			var character;
+			if(comma == -1){
+				character = value;
+			}else{
+				character = value.substring(0, comma);
+				value = value.substring(comma+1, value.length);
+			}
+			if(document.getElementById(character) != null){
+				document.getElementById(character).style.display = 'none';
+			}
+		}
+	}
+}
+
+function setCafePopupView(closePopup) {
+    var welCafePopup = $(closePopup);
+    if (welCafePopup.style.display != 'none'){
+    	setHidePopup(closePopup);
+        welCafePopup.style.display = 'none';
+    }
+    else  {
+        welCafePopup.style.display = 'block';
+    }
+}
+
+function setHidePopup(closePopup) {
+	var popupCookie = document.cookie;
+	var startPoint = popupCookie.indexOf("hidePopupid=");
+	var closePopupArrayValue = "";
+	
+	if(startPoint != -1){
+		var start = startPoint + 12;
+		var end = popupCookie.indexOf(";", start);
+		if(end == -1) end = popupCookie.length;
+		closePopupArrayValue = popupCookie.substring(start, end);
+	}
+	if(closePopupArrayValue == ""){
+		closePopupArrayValue = closePopup
+	}else{
+		closePopupArrayValue = closePopupArrayValue + "\," +closePopup;
+	}
+	
+	var expireDate = new Date();
+	expireDate.setDate(expireDate.getDate() + 7);
+	document.cookie = "hidePopupid="+closePopupArrayValue+"; expires="+expireDate.toGMTString()+";";
+}
+function showAppDownloadLayer() {
+	document.getElementById("appDownload").style.display = 'block';
+}
+function hideAppDownloadLayer() {
+	document.getElementById("appDownload").style.display = 'none';
+}
+function sendURL() {
+	var oWin;
+	try{
+		oWin = window.open("http://webmsg.naver.com/popup_send/send_url.php?code=cafe&SMSID=ESW00017&MMSID=EMG00005", "sendURL", "toolbar=no,status=no,menubar=no,location=no,scrollbars=no,resizable=no,width=285,height=402,left=100,top=100");
+    } catch (ex) {
+        console.log(ex);
+    }
+    if(oWin && !oWin.closed) {oWin.focus();}
+}
+</script>
+
+
+
+
+	
+		
+		<div id="cafe-intro">
+			
+			
+			
+			
+				
+					
+
+
+
+
+
+
+
+    
+        
+        
+        <style>
+            table {
+                border-collapse: separate
+            }
+        </style>
+    
+    
+
+
+<script type="text/javascript">
+    <!--
+    function resizeImage(num) {
+        var IMAGE_WIDTH = 860 -25;
+        //var oImg = eval("document.getElementById('userImg" + num + "')");
+        var oImg = $('userImg' + num);
+
+        if (oImg.width > IMAGE_WIDTH) {
+            var width = oImg.width;
+            var height = oImg.height;
+            var ratio = IMAGE_WIDTH / width;
+            oImg.style.width = IMAGE_WIDTH + "px";
+            oImg.style.height = height * ratio + "px";
+        }
+
+        //parentResizeIframe('cafe_main');
+    }
+
+    //-->
+</script>
+<div class="gate-list border-sub" style="width:860px;float:left;" id="post_1">
+    <div class="gate-box" id="gate.content">
+        <span class="blind">카페 대문</span>
+        <table role="presentation" style="width:836px;table-layout:fixed;overflow:hidden" cellspacing="0" cellpadding="0" border="0">
+            <tbody><tr>
+                <td height="12"></td>
+            </tr>
+            <tr>
+                <td id="editorMainContent"><table width="830" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td> 
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="413" title="새창으로 열림"><a href="https://naver.me/Fkjy2yqY" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fquick_01.jpg%22&amp;type=cafe_wa740" id="userImg9934527" onload="resizeImage(9934527)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="413"><a href="https://cafe.naver.com/feko/952321" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fquick_02.jpg%22&amp;type=cafe_wa740" id="userImg2348592" onload="resizeImage(2348592)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td title="새창으로 열림"><a href="https://arc-ps.com/htm/intro_event.php" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA1MjlfMTk5/MDAxNzQ4NDg2NjUxOTU4.Yx0WVVbTlC9HtE4k_v2Wb4-PaCTzXb1tEjpMsySL_Yog.uAxkYW8qbWn8kQKsAKgli5QMv7EYyUIrRVQjCw_gWJQg.JPEG/A.jpg?type=w1080" id="userImg4412766" style="width:830px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(4412766)" name="cafeuserimg" onclick="popview(this)"></a></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td> 
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="413" title="새창으로 열림"><a href="https://jfeelclinic.com/?idx=/devnull/k-507onda" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MDdfMjU5/MDAxNzUxODQwMDU0Mzky.LrjH0vUsqqzFOPwdzrx3HIQivoll6WTbj8IHImMxqlgg.1Ik54XDvkMHUbJHUL-iojGT45XrkTOsRz5hI0unWwTgg.JPEG/B.jpg?type=w1080" id="userImg1867535" style="width:413px;height:220px;height:220px" alt="대문이미지" onload="resizeImage(1867535)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="413" title="새창으로 열림"><a href="https://www.1percentps.com/page/sub02_09" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA1MjZfMjQw/MDAxNzQ4MjI5MTYwMDg4.9UEn8MMs7EZzNy4OUV2VhUe4MJbIecWVVA579bq4ZfAg.Jfpmd_EW98OFcseBKAcDavl6vevadvnNhjJlpgs7Ziwg.JPEG/%EC%9D%BC%ED%8D%BC%EC%84%BC%ED%8A%B8_413x220_12.jpg?type=w1080" id="userImg9925182" style="width:413px;height:220px;height:220px" alt="대문이미지" onload="resizeImage(9925182)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td> 
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="413" title="새창으로 열림"><a href="https://www.noteprs.com/bbs/board.php?bo_table=event&amp;wr_id=75" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTRfNSAg/MDAxNzUyNDYxMDg3ODcx.O8n4x6Y3hVbWJjYxMh0OWeZPW_yhGOmu5mTq14GXg4cg.HZMxRU8Bt_q8YPpoqtNB54QIDJkQ1jDpNFI_b19Z-Mcg.JPEG/C_2.jpg?type=w1080" id="userImg9683064" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(9683064)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="413" title="새창으로 열림"><a href="https://cafe.naver.com/feko/6386850" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MDNfMjA5/MDAxNzUxNTA2Mjk2Mjk1.aojMrbcVijFDlYZfKSZXuFbN_cLjLx54iwcmK5E562og.8WxUrGVXq4J069bA0wB7z5Mb9TIbng988OCytHzBvoYg.JPEG/C_9.jpg?type=w1080" id="userImg1915588" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(1915588)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td> 
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="413" title="새창으로 열림"><a href="https://vlif.co.kr/event/?id=1722488366" target="_blank" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDEwMDhfMTY2/MDAxNzI4MzU5MTYwNjM4.Nfq_ARDQ4hsJ1Dyn48WjW56glBeYYRRvPaz5Z4NKxjkg.WEzpQfqp7Fwx_rj4Rxeb1k3fRDDiXP0V0JFOWtxhYMwg.JPEG/%EB%B9%8C%EB%A6%AC%ED%94%84_15.jpg?type=w1080" id="userImg5133536" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(5133536)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="413" title="새창으로 열림"><a href="https://cafe.naver.com/feko/9329838" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MDdfMjUw/MDAxNzUxODM5Nzg4MDUz.RRJ8Pmrs7tJGGXNQkYxHFV8sUv4KNw1Vw8T31VUmbHgg.1y79TNaW1N-FiFxdIp3KdkjShRA6XKkN_iLaVPt5ZLEg.JPEG/C_1.jpg?type=w1080" id="userImg4028442" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(4028442)" name="cafeuserimg" onclick="popview(this)"></a><a title="새창으로 열림" href="https://cafe.naver.com/feko/6390710" target="_blank" rel="noopener noreferrer"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td> 
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="413" title="새창으로 열림"><a href="https://www.swayps.com/myboard/promotion" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA1MjlfNTAg/MDAxNzQ4NDk4ODUzMTYz.jqxuzvWYUHzWXtBOGQUzhAnQWGmH2SW0jMGLdWp68fMg.b1ISxulgdPs6zN18bTu5zeSo2J8DPvlUKJXI3M3gZXQg.JPEG/C_12.jpg?type=w1080" id="userImg7787339" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(7787339)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="413" title="새창으로 열림"><a href="https://bit.ly/40Rq5X8" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTRfMTc4/MDAxNzUyNDU1OTY2NzMx.Kvb7eoABmfCKXOUmu9OyEsYoTVYxcWIU0x54OHOeCDcg.2wH4P_ROLm1d8ZBYTa2ZVjCUp-R1HqlCNKJTJe3OoYcg.JPEG/C.jpg?type=w1080" id="userImg589245" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(589245)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td> 
+    <table width="830" border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td title="새창으로 열림"><a href="https://cafe.naver.com/feko/7332309" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDEwMDdfODAg/MDAxNzI4MjU3MDE4NDg3.DdVnLtiyygy86jMwN0AeiJ1usHvIekYbVGEKj9XdHDkg.i6nZ-tgRbU8Remqc1mKw6HzDd_mNsS-Zm0wjdDuZQGUg.JPEG/1%EB%B2%88.jpg?type=w1080" id="userImg9813578" style="width:204px;height:210px;height:210px" alt="대문이미지" onload="resizeImage(9813578)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td title="새창으로 열림"><a href="https://bit.ly/3IookKR" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTRfMjg5/MDAxNzUyNDU1OTkxMzY4.SMEIzSUOS1Fa5NoyJdL6xEeSPeHa8cgCBUTvJl5Holcg.ITNvYOu3Y-4O67mmHLzbhaDLxi5__o0TinZUYCxFYjMg.JPEG/D_2.jpg?type=w1080" id="userImg9335576" style="width:205px;height:210px;height:210px" alt="대문이미지" onload="resizeImage(9335576)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td title="새창으로 열림"><a href="https://smartstore.naver.com/beautyicon" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDEyMTFfMTI3/MDAxNzMzOTE1MzE4NTY4.Y3GrEolUFP58qCaJ-mWmc46TwuD0ndN451gSUsdfBa0g.TUe7Gh-k_ipL5Fv8mwIGWod-0rJy4DXLedb1fIkUGDwg.JPEG/D_11.jpg?type=w1080" id="userImg1739021" style="width:204px;height:210px;height:210px" alt="대문이미지" onload="resizeImage(1739021)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td title="새창으로 열림"><a href="https://cafe.naver.com/feko/7285602" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDA0MDhfMjg4/MDAxNzEyNTQ2OTY3MDEz.6a7YpbqKHaoCZ_Bnfi4YNtUeyyGj9_JvtGvkpj3yQV4g.fsGRLAWTAZZLcupd_AqkAaO2mX12Jft73QnSNa7EGMYg.JPEG/4%EB%B2%88_5.jpg?type=w1080" id="userImg1344696" style="width:205px;height:210px;height:210px" alt="대문이미지" onload="resizeImage(1344696)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td title="새창으로 열림"><a href="https://m.blog.naver.com/unubreasts/223784901164" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTRfMTEw/MDAxNzUyNDYxMTA3MDUx.eVGQHJS5_0ede8i0eevxWiuIv2YPfS_wjajchNQCP3kg.hLz7Oi5S2VnlO6cJSeKl_yC-MyD-zwwFE4dsVLwVFjYg.JPEG/E_45.jpg?type=w1080" id="userImg779734" style="width:830px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(779734)" name="cafeuserimg" onclick="popview(this)"></a></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td> 
+    <table border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="413"><a href="https://cafe.naver.com/feko/9578126" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MTVfMTU0/MDAxNzQ5OTE2MjAzNjI3.ohZC6daBdEO5aHCN-9vYDdKLl_abP0BVSTOR4NALGUIg.4tX7aAOLCOGI9vKTdFeUQ6ROYNBLTZNA1w0zbcHRY7cg.JPEG/F_1.jpg?type=w1080" id="userImg8665854" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(8665854)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="413"><a href="https://cafe.naver.com/feko/9640938" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MzBfMjgx/MDAxNzUxMjM0NDkxMjQ0.ZflFj1BFLBXq4PNUFw3ccQ8eAVy2OVwKAPI8RjpDwQEg.P2aKy7d_Pp-u_gQxG9WEwaQ3zejAl1i8Gztp2CpfGBsg.JPEG/F_2.jpg?type=w1080" id="userImg2939768" style="width:413px;height:130px;height:130px" alt="대문이미지" onload="resizeImage(2939768)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr>
+   <td height="50"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMDA3MTVfOTUg/MDAxNTk0NzkxMzY3NzQ2.pKOJUigFwRmeKGrfizIENmeMFlcbAdYOPlvuYyQpdDQg.shSoVoxJ0YSo7UpmCH5DVopGSqXVE3RqXXNPX42e76gg.JPEG/3_%EC%97%AC%EC%9A%B0%EC%95%BC%ED%95%AB%ED%94%BD.jpg?type=w1080" id="userImg4290738" style="width:830px;height:20px;height:20px" alt="대문이미지" onload="resizeImage(4290738)" name="cafeuserimg" onclick="popview(this)"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td><a href="https://cafe.naver.com/feko/9639549" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTRfMTkw/MDAxNzUyNDgwNzI2Njg3.V5WFCIgH09Fs3hUaFRTqVQrAMJWfK6eDbcNSIX3yjmMg.45RSr3rYXuPjYICP3LDalRvC-AC9mCzkCBzui58WCmQg.JPEG/04_%EC%97%AC%EC%9A%B0%EC%95%BC%ED%95%AB%ED%94%BD_2.jpg?type=w1080" id="userImg9219884" style="width:830px;height:190px;height:190px" alt="대문이미지" onload="resizeImage(9219884)" name="cafeuserimg" onclick="popview(this)"></a></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="50"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMDA3MTVfNTQg/MDAxNTk0NzkxMzgzODIy.lh0N-48HuYxgpuVL44OiHqFZuN_92aoubZtTwIK3nPIg.nLRVGSPulw9DaAwabShyie1q2ykTA5R7iDiicTPhtrkg.JPEG/4_%EC%84%B1%ED%98%95%EC%A0%95%EB%B3%B4.jpg?type=w1080" id="userImg956967" style="width:830px;height:20px;height:20px" alt="대문이미지" onload="resizeImage(956967)" name="cafeuserimg" onclick="popview(this)"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td><br> 
+    <table cellspacing="0" cellpadding="0" border="0" width="830">
+     <tbody>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/9536920" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA1MzBfNDAg/MDAxNzQ4NTc3NjM5MjE2.55fN2BuqW46gOz0f9guqD7m45epnx03gtFBbh36mFzsg.UbGexu-WBGuHOFUlHHS8afdPiz9NcTn44hZJGrEeQk0g.JPEG/%EC%A0%9C%EC%9D%B4%ED%8B%B0.jpg?type=w1080" id="userImg6891633" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(6891633)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/6610644" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTAyMjVfMzUg/MDAxNzQwNDU4NTcxMjcx.GhohR26klNF8VdA5xnHRIvrShsgYLaNHQeDl4kaA6qMg.ZaYSCvNfuLFUbcAXOOe5bqycWLpnwhDWhMPNBvuupN4g.JPEG/%EB%B7%B0.jpg?type=w1080" id="userImg2722852" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(2722852)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/8399110" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTAyMjVfMjE2/MDAxNzQwNDYwNTU5ODk3.BDZcGuMiVSFF9HqxEUGihi0kx7BTH5qFdVYdQcz96fkg.V4_xTcv5RTY4l0mmTPEyOGWJipG2kCKm10euVTsmLUgg.JPEG/%EC%8B%9C%EC%9A%B0.jpg?type=w1080" id="userImg4017580" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(4017580)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/9532142" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA1MjlfMjAy/MDAxNzQ4NDg4NjM0MzY4.nHXFq2t1R8ypb8eTCkEoehD_GnCA_vHHVERw27Mxo9og.k9G_vmU2tBCITyTGiM4w-8A3O91EiytYiQUjLzPDWjog.JPEG/%EC%8B%9C%ED%81%AC%EB%A6%BF.jpg?type=w1080" id="userImg4955095" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(4955095)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9562789" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTRfMTE5/MDAxNzUyNDY3NjMxMTU2.-tsE3q8W9b6NqdFB3dtqoOo_h3bFvICVZP0HO7ZMxx4g.rWeIhUMinqHpUVGjEAZVHLQT-8jCkjq-IMw-4oJ2kzsg.JPEG/%EC%9C%A4%ED%97%A4%EC%96%B4%EB%9D%BC%EC%9D%B8.jpg?type=w1080" id="userImg3579663" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(3579663)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9564268" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MDlfOTkg/MDAxNzQ5NDU5MDU0NTk4.79LH3tBAFQd-UgTR76jxcjsWx6zTKPpIWAA-HGEG92Ug.nX9gfHXPVOxrw9EnUieO3lpaVvIDQdBdzVV6BXgkU58g.JPEG/%EA%B7%B8%EB%A6%AC%EB%8B%A4.jpg?type=w1080" id="userImg345508" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(345508)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/9437572" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MDhfNDgg/MDAxNzUxOTM4Njk0NTI4.cP3OM45PpxRh8KYGEn8KGXiTL2d5jpXou4BzEwvU0rsg.d1j_86guiV0nIITDydTczFqs_Glp6L7LXsTqXrbl6Kkg.JPEG/%EB%94%94%EC%97%90%EC%9D%B4.jpg?type=w1080" id="userImg3448194" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(3448194)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://www.nanaprs.com/shop_contents/myboard_read.htm?load_type=&amp;page_idx=0&amp;tag_on=&amp;h_search_c=0&amp;h_search_v=&amp;me_popup=&amp;myboard_code=event&amp;page_limit=200&amp;idx=958056&amp;page=1&amp;category_idx=&amp;sb=%EB%82%98%EB%A0%A4%ED%95%9C%20%ED%8F%AC%EC%9D%B8%ED%8A%B8%20%EC%BD%94%EC%84%B1%ED%98%95" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDA0MjlfMjUx/MDAxNzE0MzYzNjI4NjU4.M8Qnzm3ipO_9PS-FKgiHNZnHQDUrXEI2bTnPe1uB8Tsg.eT0epbzk-GLciw69xENvLHcoRPqnloccAaGtke6kEKgg.JPEG/%EB%82%98%EB%82%98.jpg?type=w1080" id="userImg3923902" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(3923902)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9692011" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA3MTVfODgg/MDAxNzUyNTQ1NjI2Njc0.caC6S2_Jc0PdP3qFEaJI1pPUO3q9KIu8GAtKFZGui5Ag.ELX94iz6sgyZBCdqHNmoUAbvnNGpUKFejMyPX73eLz4g.JPEG/%EB%A7%88%EC%9D%B8%EB%93%9C.jpg?type=w1080" id="userImg496529" style="width:274px;height:170px" alt="대문이미지" onload="resizeImage(496529)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/8698272" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDA4MjJfNTMg/MDAxNzI0MzIzNjA5MDE5.clorkC3ntVOjAlf5MtGXngVCaRZSk8ORYWEOhB_eDKsg.UeInzU5oIAcHJn-VPmChNrJ33IqaX97XPAK11Unq0Cwg.JPEG/%ED%94%84%EB%A0%88%EC%89%AC.jpg?type=w1080" id="userImg6741025" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(6741025)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9250732" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTAyMjhfMjMy/MDAxNzQwNzI4MjA3MDY0.GTfhjTLyguX0Wq9kS5ri9NQe3CB02BU8SfnPn6Ez0x8g.so0YypuUjYEKMOGurlLjHUGCrGXLfKvRf8pwHLHdrT4g.JPEG/%EB%B9%84%EB%8D%94%EB%89%B4.jpg?type=w1080" id="userImg1459832" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(1459832)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9511919" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA1MjNfMjcx/MDAxNzQ3OTc0Njg1NzEw._DtQavV-WuSgPuKdMyF2RNhY-5OswVlx-J5B4sCV00Ag.4qiifXSmJvKbh8rnoCwuOu4QfUplU2XzCjfYMk77L98g.JPEG/%EC%98%A4%EC%97%A0.jpg?type=w1080" id="userImg2303708" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(2303708)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/9617007" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MjZfMjY1/MDAxNzUwOTE1NzgzMTI2.tMj0F2KH-cn235YhuPM907x-BN5GFRXZPRodGf0k3Gkg.s70etQ6JJ12WlrGJjtqxlFgWY_Af0PZTa79PpjIJ4C4g.JPEG/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4.jpg?type=w1080" id="userImg3385297" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(3385297)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9148857" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MTZfMTM2/MDAxNzUwMDQ4NTA3MTI5.7GqqjafRGmq3APMPdOtYrQkRZJe1oYA4sEj-AZ3VkQAg.XESMgFTi0FOX2s4hAgMtiqhc6-IODmH0BJxPRX27FvMg.JPEG/%EC%9C%84%EB%B2%84%EC%8A%A4.jpg?type=w1080" id="userImg5407274" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(5407274)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/8320342" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDA2MTdfMjkx/MDAxNzE4NTg1MDI1NTk3.2O8IVIyCUrUm8GSyQ1-p0tJJyAfm4AjDk_5cWk0BKsQg.ZDz_X2sVBq1_YaQJJiRGyvnf7c1h9OW6vNgraV1cc6Eg.JPEG/%ED%8B%B0%EC%97%90%EC%8A%A4.jpg?type=w1080" id="userImg7922663" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(7922663)" name="cafeuserimg" onclick="popview(this)"></a><a href="https://cafe.naver.com/feko/7718790" target="_blank" title="새창으로 열림" rel="noopener noreferrer"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/9430689" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDA1MTNfMjk0/MDAxNzE1NTg0NjM5NDU5.G5aa1KsBqsHy6IkTslsI2NWutJq9YY4K3PKMVCOAvhQg.6S8mq-BXDjCkt-93QdmLpTyRyFGgNuzenjqmZS1i7Bsg.JPEG/%EC%97%90%EC%9D%B4%ED%8A%B8.jpg?type=w1080" id="userImg602062" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(602062)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9544507" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MDJfNjkg/MDAxNzQ4ODMwMjIwNTky.OUw3YC0BguSkMmtK_Vjweg06-eyM0DvTXk8sQmXYuhIg.fERXvNwkI_lZkqEmDcLvC6LZFUeWbe9RExkorYG2ODUg.JPEG/%EC%97%90%ED%94%BD.jpg?type=w1080" id="userImg6350265" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(6350265)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="http://pf.kakao.com/_UbGxhd/chat" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNDEwMTVfMTEz/MDAxNzI4OTc0OTUxMDQ0.gHx2LjS2QgHxKgCEnqho7Gt4Xgy7hMSLt0b3aA6HDqMg.bBOJ5G2fRDcwqvDX8qbMuI-xlrNQVgXyadC6HuY-Ejgg.JPEG/%EC%BD%94%EC%BD%94%EB%9D%BC%EC%9D%B8.jpg?type=w1080" id="userImg1197189" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(1197189)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/9266607" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA0MDlfMTU4/MDAxNzQ0MTgxNjQ1ODI0.U9fv172llKOS0I4daPIPuPN02t26znP0vqZ0KbJgUIcg.b8_aDEPv5onTRo2lbSUV_-LHpcd65JCD6gnt2xCJ41sg.JPEG/1.jpg?type=w1080" id="userImg709702" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(709702)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/9604735" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyNTA2MThfMjgy/MDAxNzUwMjIwOTE2NjYy.fGdHHqkWofAUI2f_xbm-uLcp7FAWwi3z2kf14NQVLygg.KJ8Rrdz37gCTxACQCq-YiPb605anPufhIe2Q6HFJrykg.JPEG/%EB%A3%A8%ED%98%B8.jpg?type=w1080" id="userImg1834788" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(1834788)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="http://bit.ly/2N2CrUA" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafeskthumb-phinf.pstatic.net%2FMjAyNTA1MjZfMTQ0%2FMDAxNzQ4MjE3Njc4MjI2.sor-8sldc7UATPi0wjxJ-9LXvsd_p-Uv987K5_I7ql0g.Snd27wYk6YKpB3hC0W93sg14rFvtu4lRkDczwJTzHI4g.JPEG%2F274_170.jpg%3Ftype%3Dw1080%22&amp;type=cafe_wa740" id="userImg2107861" style="width:274px;height:170px;height:170px" alt="대문이미지" onload="resizeImage(2107861)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="50"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMDA3MTVfMyAg/MDAxNTk0NzkxNDAwOTgy.k5Vsux3OPEn0fZJHTmFtbsn58P75gkgBC2AnLpyOMyMg.FG-eq2g4N6yXlMu_dCrjtgtGTz5p6oRqb-5VMsWvKosg.JPEG/5_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0.jpg?type=w1080" id="userImg5138549" style="width:830px;height:20px;height:20px" alt="대문이미지" onload="resizeImage(5138549)" name="cafeuserimg" onclick="popview(this)"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td> 
+    <table width="830" border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td width="274"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tbody>
+          <tr>
+           <td title="새창으로 열림" colspan="2"><a href="https://cafe.naver.com/feko/6468234" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfMTEg/MDAxNjkzMzIzODMyMzg2.u6ls9gj6sV3lSr1KWHWr0Os6TjMzFt68jYwL9UnLOBIg.tMKWs7WJlnUVykHRRbWQmf_UO-FuEjRCSKjiIBrQT6og.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_01.png?type=w1080" id="userImg2111467" style="width:274px;height:135px;height:135px" alt="대문이미지" onload="resizeImage(2111467)" name="cafeuserimg" onclick="popview(this)"></a></td>
+          </tr>
+          <tr>
+           <td width="135" title="새창으로 열림"><a href="https://cafe.naver.com/feko/6483694" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfMTQ4/MDAxNjkzMzI0MjE3ODEw.iOjVDeURxPGVi-W3s_KEA2I5dCT1lhqPTdmlTvdfjhIg.2OHDZb3hcNF5TreFL6Bu40vi9wljeu86VZ--fFHEuUcg.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_02.png?type=w1080" id="userImg7427026" style="width:135px;height:135px;height:135px" alt="대문이미지" onload="resizeImage(7427026)" name="cafeuserimg" onclick="popview(this)"></a></td>
+           <td width="139" title="새창으로 열림"><a href="https://cafe.naver.com/feko/5999657" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfOTgg/MDAxNjkzMzIzODUzNTEy.9J0SIZh3CMeRtMfk56KULEsEw8HA7ckBXBU7S6xnp6Eg.Q2ksqGzA3d9UR5Yp5i-GrEwyCMsdCLTBhUvzzwka67Ug.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_03.png?type=w1080" id="userImg759976" style="width:139px;height:135px;height:135px" alt="대문이미지" onload="resizeImage(759976)" name="cafeuserimg" onclick="popview(this)"></a></td>
+          </tr>
+         </tbody>
+        </table> </td>
+       <td width="4"></td>
+       <td width="278" title="새창으로 열림"><a href="https://cafe.naver.com/feko/7560270" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfMjI3/MDAxNjkzMzIzODYzNDQ5.QETTFXfx6Mme26S9FQz3D1T27tmGh8PxtaJDFaKjagsg.5IvJQN1N2IqqQTPkXkb85X8WFQ6q8K6aeToRc95WpB8g.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_04.png?type=w1080" id="userImg7104265" style="width:278px;height:270px;height:270px" alt="대문이미지" onload="resizeImage(7104265)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td width="278"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tbody>
+          <tr>
+           <td width="139" title="새창으로 열림"><a href="https://cafe.naver.com/feko/7631633" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfMTkw/MDAxNjkzMzIzODc0Njgw.D2udRFhhBuqBTitQzawYQHC2ltGh9bC8-9zpUpdHQzwg.lTDAjKjzaTr_dMXmpOCReehW3R3iPLMxTZqrrE3drR4g.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_05.png?type=w1080" id="userImg9659107" style="width:139px;height:135px;height:135px" alt="대문이미지" onload="resizeImage(9659107)" name="cafeuserimg" onclick="popview(this)"></a></td>
+           <td width="139" title="새창으로 열림"><a href="https://cafe.naver.com/feko/6552491" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfMjYy/MDAxNjkzMzIzODg1MDM0.VbjGBIFjrOZ9W7KKy9ipHENv8v_UZEYGRNEEm_K5gw8g.1F_Qysjgjx56XuoiFSM9JWBQ-H6nOK8FWWhqoHUZfokg.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_06.png?type=w1080" id="userImg6213097" style="width:139px;height:135px;height:135px" alt="대문이미지" onload="resizeImage(6213097)" name="cafeuserimg" onclick="popview(this)"></a></td>
+          </tr>
+          <tr>
+           <td title="새창으로 열림" colspan="2"><a href="https://cafe.naver.com/feko/6455106" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMzA4MzBfMTc3/MDAxNjkzMzIzODkzMzM5.UGa-KtXEJAy-l4IKrjADqYgzy3qiMXJXR8Uk9TPCGzkg.it2J-1gaGeQc-o53mJBPOmz_uBmR9qG_cG9FkTiKLEsg.PNG/06_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B7%B0_07.png?type=w1080" id="userImg5212629" style="width:278px;height:135px;height:135px" alt="대문이미지" onload="resizeImage(5212629)" name="cafeuserimg" onclick="popview(this)"></a></td>
+          </tr>
+         </tbody>
+        </table> </td>
+      </tr>
+      <tr>
+       <td height="4"></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="50"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMDA3MTVfMjk4/MDAxNTk0NzkxNDE0OTA3.yjVk9M48S93AVNOYPsubzNMobk8_Fpj70JM4Yt_7cnog.vcplReFyLm4U7sHoiOaRxOrK1Y49_XoKdgESVDPYa9kg.JPEG/6_%EC%8A%A4%ED%86%A0%EB%A6%AC.jpg?type=w1080" id="userImg7563292" style="width:830px;height:20px;height:20px" alt="대문이미지" onload="resizeImage(7563292)" name="cafeuserimg" onclick="popview(this)"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td> 
+    <table width="830" border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/3582778" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_01.jpg%22&amp;type=cafe_wa740" id="userImg6778389" onload="resizeImage(6778389)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/3481652" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_02.jpg%22&amp;type=cafe_wa740" id="userImg159262" onload="resizeImage(159262)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/3256967" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_03.jpg%22&amp;type=cafe_wa740" id="userImg2439366" onload="resizeImage(2439366)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/3130735" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_04.jpg%22&amp;type=cafe_wa740" id="userImg4148778" onload="resizeImage(4148778)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/2750641" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_05.jpg%22&amp;type=cafe_wa740" id="userImg8953187" onload="resizeImage(8953187)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+      <tr>
+       <td height="4" colspan="9"></td>
+      </tr>
+      <tr>
+       <td><a href="https://cafe.naver.com/feko/2700622" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_06.jpg%22&amp;type=cafe_wa740" id="userImg3357513" onload="resizeImage(3357513)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/2050990" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_07.jpg%22&amp;type=cafe_wa740" id="userImg9734133" onload="resizeImage(9734133)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/1166234" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_08.jpg%22&amp;type=cafe_wa740" id="userImg1862453" onload="resizeImage(1862453)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/834037" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_09.jpg%22&amp;type=cafe_wa740" id="userImg9384792" onload="resizeImage(9384792)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a href="https://cafe.naver.com/feko/795288" target="_blank" rel="noopener noreferrer"><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fyeouya.com%2Fimages%2Fcafe%2Fstory_10.jpg%22&amp;type=cafe_wa740" id="userImg1099508" onload="resizeImage(1099508)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td height="50"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMDA3MTVfMjM5/MDAxNTk0NzkxNDQzMzc5.75TjonZR_ktSGP2gif8fKH6RRbwip53K1rZeHWZJAIgg.s6JH2koQXH5nSeAXKRAY4iPkQh2d3QB3SQCHRXes6nYg.JPEG/7_%EC%97%AC%EC%9A%B0%EC%95%BC%EA%B8%B0%EB%B6%80.jpg?type=w1080" id="userImg9844937" style="width:830px;height:20px;height:20px" alt="대문이미지" onload="resizeImage(9844937)" name="cafeuserimg" onclick="popview(this)"></td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td height="4"></td>
+   <td> </td>
+  </tr>
+  <tr></tr>
+  <tr>
+   <td> 
+    <table width="830" border="0" cellspacing="0" cellpadding="0">
+     <tbody>
+      <tr>
+       <td><a href="https://happybean.naver.com/donation/DonateHomeMain" target="_blank" title="새창으로 열림" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMjA4MDFfMTI5/MDAxNjU5Mjg2MzI1MDE0._oAMHqxDB-7eNpL3y-KHxq6slUjUQaOhNV9DXucytoUg.pUuSNiTajETfwErY8_mkRCDm8lbbwQgSLJLHBVnhuPUg.JPEG/07_%EA%B8%B0%EB%B6%80%EC%BA%A0%ED%8C%A8%EC%9D%B8_1.jpg?type=w1080" id="userImg8788914" style="width:413px;height:140px;height:140px" alt="대문이미지" onload="resizeImage(8788914)" name="cafeuserimg" onclick="popview(this)"></a></td>
+       <td width="4"></td>
+       <td><a title="새창으로 열림" href="https://www.goodneighbors.kr/support/relationship/one20.gn" target="_blank" rel="noopener noreferrer"><img src="https://cafeskthumb-phinf.pstatic.net/MjAyMDA3MTVfNTQg/MDAxNTk0NzkxNTIxMjI3.v-l2KWrBVh72zcOZLEmw4htcLpVrw_75oTDxRqP1oDwg.76HdQpnb-HQ8SY13QTj8AzTsE4kBmKFbgLfKjWGgzAog.JPEG/donation_02.jpg?type=w1080" id="userImg1302998" style="width:413px;height:140px;height:140px" alt="대문이미지" onload="resizeImage(1302998)" name="cafeuserimg" onclick="popview(this)"></a></td>
+      </tr>
+     </tbody>
+    </table> </td>
+  </tr>
+  <tr></tr>
+ </tbody>
+</table></td>
+            </tr>
+            <tr>
+                <td id="td02" height="12" style="display:none"></td>
+            </tr>
+            
+            
+
+            <tr>
+                <td height="12"></td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<form name="frmGate" method="post" action="/Gate.nhn" onsubmit="return false;">
+    <input type="hidden" name="m" value="reinsertGate">
+    <input type="hidden" name="gate.clubid" value="10912875">
+    <input type="hidden" name="gate.gateid" value="9482667">
+    <input type="hidden" name="page" value="">
+</form>
+<script type="text/javascript" src="/static/js/mycafe/javascript/lcslog-1644284985000-26709.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/common/storyphoto/original_viewer-1715595818000-41847.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var mlayoutPhoto = new PhotoImageViewer({
+        target: parent,
+        cssurl: "/common/storyphoto/original_viewer.css",
+        popupurl: "https://cafe.naver.com/common/storyphoto"
+    });
+
+    function popview(imgObj) {
+        var url = "";
+        if (typeof imgObj == 'string') {
+            url = imgObj;
+            
+        } else if (typeof imgObj == 'object' && imgObj.parentNode != "undefined" && imgObj.src != "undefined") {
+            if (imgObj.parentNode.tagName == 'A') {
+                return;
+                
+            } else {
+                url = imgObj.src;
+            }
+        }
+
+        var cafefiles = 'https://cafefiles.pstatic.net';
+        url = imageUrlReplacerForSkin(url, cafefiles);
+
+        mlayoutPhoto.doPlayer([url], 0);
+    }
+
+    function popclose() {
+        if (typeof (mlayoutPhoto) != "undefined") {
+            mlayoutPhoto.doClose();
+        }
+    }
+
+    window.onunload = popclose;
+</script>
+<!-- AjaxUI -->
+<!-- 두번째 파라미터로 출처 및 작성자 정보가 포함된 html을 넣어주시면 됩니다. -->
+<script>AutoSourcing.setString("1", "<p style=\"margin:20px 0 30px 0;padding:0;font-size:12px;font-family:dotum\"><strong style=\"padding:0 7px 0 0;\">[출처]</strong> <a href=\"https://cafe.naver.com/feko\" target=\"_blank\">카페 대문  (『여우야』뷰티카페 (성형수술/화장품/성형후기/이벤트/체험단))</a></p>");</script>
+<script type="text/javascript">
+    
+
+    
+
+    function reinsertGate() {
+        var frmGate = document.frmGate;
+        frmGate.target = "_self";
+        frmGate.action = "Gate.nhn";
+        frmGate.submit();
+    }
+
+    // 게시물 닫기
+    function closeArticleMain() {
+        if (parent && parent.document.getElementById("gateOpen")) {
+            parent.document.getElementById("gateOpen").value = 0;
+        }
+        Element.hide("editorMainContent");
+        Element.hide("td02");
+        Element.hide("closeSelectDiv");
+        Element.show("openSelectDiv");
+        parent.setTop();
+        parentResizeIframe("cafe_main");
+    }
+
+    // 게시물 열기
+    function openArticleMain() {
+        if (parent && parent.document.getElementById("gateOpen")) {
+            parent.document.getElementById("gateOpen").value = 1;
+        }
+        Element.show("editorMainContent");
+        Element.show("td02");
+        Element.show("closeSelectDiv");
+        Element.hide("openSelectDiv");
+        parentResizeIframe("cafe_main");
+
+        try {
+            var etc = {};
+            etc["sti"] = "cafe_gate_view";
+            lcs_do(etc);
+        } catch (e) {
+        }
+    }
+
+    function goPage(link) {
+        parent.location.href = link;
+    }
+
+    if (parent && parent.document.getElementById("gateOpen") && parent.document.getElementById("gateOpen").value == 0 && 'true' == 'true') {
+        closeArticleMain();
+    }
+
+    // 대문의 동영상이 있는 경우, 대문 폭을 초과한 경우 resize
+    (function () {
+        var nContentWidth = 860 -25;
+        var aMovie = $A(cssquery("#editorMainContent iframe")), oResult, elCloned, elIframe;
+
+        function resizeWidthAndHeight(nWidth, nHeight) {
+            var nRatio = nContentWidth / parseInt(nWidth, 10);
+            return {
+                nWidth: nContentWidth,
+                nHeight: Math.round(parseInt(nHeight, 10) * nRatio)
+            };
+        }
+
+        for (var i = 0, nLen = aMovie.length; i < nLen; i++) {
+            elIframe = aMovie[i];
+            oResult = resizeWidthAndHeight(elIframe.width, elIframe.height);
+
+            if ((elIframe.src.search("&isexternal=true") >= 0 || elIframe.name == "mplayer")
+                && parseInt(elIframe.width, 10) > nContentWidth) {
+                // iframe 태그 복사(자식 노드 제외
+                elCloned = elIframe.cloneNode();
+
+                // 비율 유지하여 width/height 설정
+                elCloned.width = oResult.nWidth;
+                elCloned.height = oResult.nHeight;
+
+                elIframe.style.display = "none";							// DOM에서 삭제시 IE에서 예상치 못한 사이드 이펙트 발생. DOM에서 hide 시킴
+                elIframe.parentNode.insertBefore(elCloned, elIframe);	// cloned iframe 추가
+            }
+        }
+    })();
+</script>
+
+				
+				
+				
+				
+			
+		</div>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="basisElement" class="layout-box">				
+	<div id="cafe-data" class="fl ">
+		
+		
+		
+		<div class="cb">
+		
+		
+		
+			
+				
+				
+					<div class="fl c-d-l13">
+						
+							
+							
+								
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    // 썸네일 로드가 실패하면 원본 보여주기
+    function showOriginal(img,width,height)
+    {
+        if(img.src.indexOf("cafethumb.naver.net")<0)
+            return;
+        img.src = img.src.replace("cafethumb.naver.net","cafefiles.naver.net");
+    }
+
+    // 썸네일 사이즈가 132x132 보다 크면 리사이즈
+    function resizeImg(img)
+    {
+        if( img.width>132 || img.height>132)
+        {
+            if(img.width>img.height) img.width=132;
+            else img.height = 132;
+        }
+    }
+
+	function movePage(sURL) {
+		changeTop(sURL);
+	}
+</script>
+
+<div class="article-album">
+	<div class="list-tit-box">
+		<div class="list-tit">
+			<h3><a href="/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=4539&amp;search.boardtype=L" onclick="movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=4539&amp;search.boardtype=L');return false;" title="병원이벤트">병원이벤트</a></h3>
+			<span><a href="/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=4539&amp;search.boardtype=L" onclick="clickcr(this, 'cfh.more','','',event);movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=4539&amp;search.boardtype=L');return false;">더보기</a></span>
+		</div>
+	</div>
+
+	
+	
+	
+	<ul class="album-box photo-box-3">
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA3MDhfMTY4/MDAxNzUxOTQyNTIyNzk0.me-zgSDSEo3fRWAQTtaq6nRpY7l7BNsRSnLpyv_2Wz0g.k-3NLSVCvwvHGfFvv-_Q2onegerleBET4jQGVtJmnH8g.JPEG/250630_%B8%AE%C3%BC%BD%BA_%C5%AC%B8%AE%B4%D0_%B1%D7%B7%A3%B5%E5%BF%C0%C7%C2-%B9%D9%C0%CC%B7%B2-%C0%CC%B9%CC%C1%F6_5.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">[ 주목!💎 ] 오픈 피부과 특가 ♥ 👈 // 신논현역 피부과 오픈 한정 이벤트 진행 중! &lt; JD리체스클리닉 &gt; 레이저제모 1회 9,900원 / 바디보톡스 100유닛 3만9천원 등등</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[23]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">JD 리체스클리닉</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.07.07.</span>
+									<span class="num">조회 522</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9617007" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9617007');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA2MjNfMjgz/MDAxNzUwNjY2MDc3ODcw.rHqYS1pc_LRsn3SJ5_fcDKTFeunnSmcl2phxKPp8VA8g.50xOL3cyYSuNQ-t9sAgwwAaO0K_Djybzj1Z7tIpJPMsg.PNG/%B1%E8%BA%B8%BF%AC1_%BA%B9%BB%E7_2.png?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9617007" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9617007');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">가슴수술유명한곳  🔥UU의 정석🔥</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[15]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">그레이스성형외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.06.23.</span>
+									<span class="num">조회 2,512</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9536920" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9536920');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA1MzBfMTMg/MDAxNzQ4NTcyOTIwNjEz.ThxFKzmS8s_FZ2s-N48gjV7N7mpr55zq96amzsSr_S8g.sSsvVa5dskaAlrXltgXeCa29kDj-fiuSnWsoc0UNy1og.JPEG/250519_%BF%A9%B8%A7%C0%CC%BA%A5%C6%AE_%C0%CE%BD%BA%C5%B8_01.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9536920" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9536920');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">🍉COOL🍉한 혜택▬▬▬제이티성형외과 ▬ 여름🍧이벤트🍧▬▬▬</span></span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">제이티성형외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.05.30.</span>
+									<span class="num">조회 551</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9437572" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9437572');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA0MjlfOTUg/MDAxNzQ1OTE3NjI4NjY4.gsuYDelX9oY6G50UdkaKb2eHtoQpgmlQ69_a1k7cg3Qg.m5Hh36dk9e8Tfqz_Z4p1Gecb_zBt6QL9Bz6Lktp_lq8g.GIF/250418_%B5%F0%BF%A1%C0%CC%B0%A1%BD%BF%BC%BA%C7%FC_%C8%A8%C6%E4%C0%CC%C1%F6_01.gif?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9437572" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9437572');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">[성형정보] 어디서나 당당한 디에이 I라인 가슴성형 🎉EVENT OPEN!🥰🎉</span></span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">디에이성형외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.04.29.</span>
+									<span class="num">조회 249</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9430689" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9430689');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA0MjhfMjA0/MDAxNzQ1ODA0MTYxMzA0.6W7yrmaHp85zuPkHMFuVo_k-uorbv_EXQPCvRQ-X5CAg.z5OqF0grbmDqK6M6Oe1_J1wjyJ0Zb8avU48FzNea8gEg.JPEG/0.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9430689" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9430689');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">💎 에이트성형외과의원 성형, 피부과 이벤트 프로모션 💎</span></span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">EIGHTPS</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.04.28.</span>
+									<span class="num">조회 1,428</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9266607" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9266607');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTAzMTBfMTcg/MDAxNzQxNTg3NDA1MDI5.L5vz-u-wlylqh5Dw4fpRjw99ZUJDPdvlhRCSQtEXbxYg.J8TJU1z5NsiJqISlM6Z0Hbu8ji2B814NAYRFfp061NEg.JPEG/250305_%BF%A9%BF%EC%BE%DF%B8%DE%C0%CE%B9%E8%B3%CA_%BE%E7%BE%C7.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9266607" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9266607');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">[이유구강악안면외과] 💕🎁양악·윤곽·돌출입 이벤트🎁💕 첫수술, 왜 중요할까요❓</span></span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이유구강악안면외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.03.10.</span>
+									<span class="num">조회 1,076</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=8145493" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=8145493');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA0MDJfMjM2/MDAxNzQzNTc0MTkxMDcw.PM5oaFVW9nAoJx5IYeHUrmck1l24lAUU9E8G5byLizAg.Rkcx_9l-8TnvjzFCiBpysLGoGdYhjx6w-6EWkVUSf0gg.JPEG/%B0%D4%BD%C3%B9%B0.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=8145493" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=8145493');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">알려드립니다) 안면거상 수술 전 필수로 알아야 하는 것들, 빌리프 성형외과에서 자세하게 알려드립니다.</span></span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">빌리프성형외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">24.01.31.</span>
+									<span class="num">조회 2,147</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTAyMjRfNjYg/MDAxNzQwMzg0MTM4MzMz.RW26uSd_BOsdmJcCzBBPFbZ48XmRGeTwqSZBU1d-negg.xRDoZ4rJPjTufFT40t4CsucWS9K35hw-5GSC8Ie4e90g.JPEG/%C0%CF%C6%DB%BC%BE%C6%AE%BC%BA%C7%FC%BF%DC%B0%FA%2C_%BE%E7%BE%C7%2C_%C0%B1%B0%FB%2C_%B4%AB%BC%BA%C7%FC%2C_%C4%DA%BC%BA%C7%FC_2.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">💜🩵일퍼센트성형외과🩵💜 너 얼굴형 MBTI검사 아직도 안했어👀❓❓❓❓🦄 예쁜 얼굴형 &amp; 눈·코👁️👃얼굴형 MBTI 검사 🍷</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[96]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">일퍼센트성형외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">22.11.24.</span>
+									<span class="num">조회 2.1만</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6610644" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6610644');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNDA4MjFfOCAg/MDAxNzI0MjA5NjAxOTYy.o8i94_7zRdyuYfZFvBaZMk2en6Lo-AMblxoQ_o302CIg.gs3PpsS-nkDSYgJ5hed71uTH_S8x_hQ5yqi5b4J-lwUg.JPEG/240821_babitalk_breast240.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6610644" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6610644');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">핫하다 핫해 🔥 "뷰" UIU 가슴성형 240 EVENT🔥</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[3]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">뷰 성형외과</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">22.06.10.</span>
+									<span class="num">조회 5,792</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+
+		
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+				<li class="no_content">
+					<dl>
+						<dt class="photo"></dt>
+						<dd class="tit"></dd>
+						<dd class="date m-tcol-c">
+							<div class="pers_nick_area"></div>
+							<div class="date_num m-tcol-c"></div>
+						</dd>
+					</dl>
+				</li>
+			
+		
+	</ul>
+</div>
+
+							
+							
+							
+							
+							
+							
+							
+							
+						
+					</div>
+				
+				
+			
+		
+			
+				
+				
+					<div class="fr c-d-l11">
+						
+							
+								
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+var cLayer = new Ju.controlLayer();
+function alertArticleInBadMenu(evt) {
+	if(evt != "off"){
+	  	var evt = evt || window.event;
+	  	cLayer.show('restrict_layer',evt,null,null);
+  	}else if(evt=="off") cLayer.hide('restrict_layer');
+}
+
+function movePage(sURL) {
+	changeTop(sURL);
+}
+</script>
+
+<div class="article-board">
+	<div class="list-tit-box">
+		<div class="list-tit">
+			<h3><a onclick="movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.boardtype=L');return false;" href="/ArticleList.nhn?search.clubid=10912875&amp;search.boardtype=L" class="m-tcol-t" title="전체글보기">전체글보기</a></h3>
+			<span><a onclick="clickcr(this, 'cfh.more','','',event);movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.boardtype=L');return false;" href="/ArticleList.nhn?search.clubid=10912875&amp;search.boardtype=L">더보기</a></span>
+		</div>
+	</div>
+	<table class="board-box">
+		<caption><span class="blind">게시물 목록</span></caption>
+		
+		
+		<colgroup>
+			<col> 
+			<col width="80"> 
+		</colgroup>
+		
+		<tbody>
+
+		
+		
+		
+			
+			<tr class="board-notice type_required">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								필독
+								
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="★< 디페어 타이트핏 쿨 마스크밴드 > 체험단 10명 모집 (~7/20)">
+								<span class="inner">
+									
+									★&lt; 디페어 타이트핏 쿨 마스크밴드 &gt; 체험단 10명 모집 (~7/20)
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>34</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">572</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_required">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								필독
+								
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9578126&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9578126&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="보톡스 1,000원?&amp;#11088;밴스의원 오픈 이벤트 모음ZIP&amp;#11088; 오픈지점들의 다양한 이벤트를 만나보세요&amp;#128158;">
+								<span class="inner">
+									
+									보톡스 1,000원?⭐밴스의원 오픈 이벤트 모음ZIP⭐ 오픈지점들의 다양한 이벤트를 만나보세요💞
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9578126&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9578126&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>20</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">3,749</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=7332309&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=7332309&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="&amp;#129505;서진성형외과&amp;#129505; KBS N 가슴성형&amp;#127942;1위&amp;#127942; 이형민원장 직접 집도 &amp;#129293;추가비용 없는 가슴성형">
+								<span class="inner">
+									
+									🧡서진성형외과🧡 KBS N 가슴성형🏆1위🏆 이형민원장 직접 집도 🤍추가비용 없는 가슴성형
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=7332309&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=7332309&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>378</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">2.4만</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=7214616&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=7214616&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="&amp;#128156; 상담 당일 가슴성형/ UU모양 I골 /가슴성형은 유앤유성형외과 &amp;#128156;">
+								<span class="inner">
+									
+									💜 상담 당일 가슴성형/ UU모양 I골 /가슴성형은 유앤유성형외과 💜
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=7214616&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=7214616&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>264</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">2.9만</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639549&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639549&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="★아이펩톡스 CJ 홈쇼핑 <25년 7월 15일 오전 8시 15분>&amp;#128154;누적 판매량 500,000병 판매 돌파">
+								<span class="inner">
+									
+									★아이펩톡스 CJ 홈쇼핑 &lt;25년 7월 15일 오전 8시 15분&gt;💚누적 판매량 500,000병 판매 돌파
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">459</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="&amp;#128156;&amp;#129653;일퍼센트성형외과&amp;#129653;&amp;#128156; 너 얼굴형 MBTI검사 아직도 안했어&amp;#128064;&amp;#10067;&amp;#10067;&amp;#10067;&amp;#10067;&amp;#129412; 예쁜 얼굴형 &amp; 눈·코&amp;#128065;&amp;#65039;&amp;#128067;얼굴형 MBTI 검사 &amp;#127863;">
+								<span class="inner">
+									
+									💜🩵일퍼센트성형외과🩵💜 너 얼굴형 MBTI검사 아직도 안했어👀❓❓❓❓🦄 예쁜 얼굴형 &amp; 눈·코👁️👃얼굴형 MBTI 검사 🍷
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6999094&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>96</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">2.1만</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6386850&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6386850&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="&amp;#10084;&amp;#129505;&amp;#128155;&amp;#128154;아너스티성형외과 &amp;#10084;&amp;#129505;&amp;#128155;&amp;#128154; [코재수술150만원,자가늑350만원 EVENT]">
+								<span class="inner">
+									
+									❤🧡💛💚아너스티성형외과 ❤🧡💛💚 [코재수술150만원,자가늑350만원 EVENT]
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6386850&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6386850&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>225</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">4.5만</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="[ 주목!&amp;#128142; ] 오픈 피부과 특가 ♥ &amp;#128072; // 신논현역 피부과 오픈 한정 이벤트 진행 중! < JD리체스클리닉 > 레이저제모 1회 9,900원 / 바디보톡스 100유닛 3만9천원 등등">
+								<span class="inner">
+									
+									[ 주목!💎 ] 오픈 피부과 특가 ♥ 👈 // 신논현역 피부과 오픈 한정 이벤트 진행 중! &lt; JD리체스클리닉 &gt; 레이저제모 1회 9,900원 / 바디보톡스 100유닛 3만9천원 등등
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9667212&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>23</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">522</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9599993&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9599993&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="(&amp;#11088;특가 진행 중) 홍대입구역 피부과 &quot;온다 리프팅&quot; 놓치면 후회합니다!">
+								<span class="inner">
+									
+									(⭐특가 진행 중) 홍대입구역 피부과 "온다 리프팅" 놓치면 후회합니다!
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">1,007</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="★< 크레시나 트랜스더믹 두피 앰플 > 체험단 80명 모집(~7/13)">
+								<span class="inner">
+									
+									★&lt; 크레시나 트랜스더믹 두피 앰플 &gt; 체험단 80명 모집(~7/13)
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>100</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">787</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9045871&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9045871&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="&amp;#10024;청담 리프팅 명가&amp;#10024; 상위1% 리프팅! 울타늄 원조&amp;#128149; 여우야 한정 3월 이벤트&amp;#127853;">
+								<span class="inner">
+									
+									✨청담 리프팅 명가✨ 상위1% 리프팅! 울타늄 원조💕 여우야 한정 3월 이벤트🍭
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9045871&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9045871&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>49</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">6,381</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=7285602&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=7285602&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="&amp;#9889;하이봄성형외과&amp;#9889; 티 안 나게 예쁜 &amp;#128073;투명절개 콧볼축소 39&amp;#128072; &amp;#127775;KBS N 브랜드어워즈 <콧볼축소>수상&amp;#127775;">
+								<span class="inner">
+									
+									⚡하이봄성형외과⚡ 티 안 나게 예쁜 👉투명절개 콧볼축소 39👈 🌟KBS N 브랜드어워즈 &lt;콧볼축소&gt;수상🌟
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=7285602&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=7285602&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>267</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">1.9만</td>
+				
+
+				
+				
+			</tr>
+			
+		
+			
+			<tr class="board-notice type_main">
+				<td class="td_article">
+					<div class="board-tag">
+						<strong class="board-tag-txt">
+							<span class="inner">
+							
+								
+								<span class="inner"><span class="blind">전체</span>공지</span>
+								
+								
+							
+							</span>
+						</strong>
+					</div>
+					<div class="board-list">
+						<div class="inner_list">
+							
+								
+									
+									
+								
+								
+							
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6933470&amp;referrerAllArticles=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6933470&amp;referrerAllArticles=true' ); clickcr(this, 'cfh.notice','','',event);return false;" class="article" title="[&amp;#128142;드림시스&amp;#128142;] 지방흡입&amp;이식&amp;#128089; 시술/수술 사후관리 리얼 후기 모음&amp;#128248; #안면윤곽 #가슴성형 #리뷰이벤트&amp;#128176;">
+								<span class="inner">
+									
+									[💎드림시스💎] 지방흡입&amp;이식👙 시술/수술 사후관리 리얼 후기 모음📸 #안면윤곽 #가슴성형 #리뷰이벤트💰
+								</span>
+							</a>
+
+							<div class="article_append">
+								
+								
+								
+
+
+
+								
+								
+									<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=6933470&amp;referrerAllArticles=true&amp;commentFocus=true" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=6933470&amp;referrerAllArticles=true&amp;commentFocus=true' ); clickcr(this, 'cfh.noticecmt','','',event);return false" class="cmt">
+										[<em>532</em>]
+									</a>
+								
+							</div>
+						</div>
+					</div>
+				</td>
+
+				
+				
+					<td class="td_view">2.3만</td>
+				
+
+				
+				
+			</tr>
+			
+		
+
+		
+
+		
+
+		
+		
+
+		
+		
+		</tbody>
+	</table>
+</div>
+
+							
+							
+							
+							
+							
+							
+							
+							
+							
+						
+					</div>
+				
+				
+			
+		
+			
+				
+				
+					<div class="fr c-d-l11">
+						
+							
+							
+								
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    // 썸네일 로드가 실패하면 원본 보여주기
+    function showOriginal(img,width,height)
+    {
+        if(img.src.indexOf("cafethumb.naver.net")<0)
+            return;
+        img.src = img.src.replace("cafethumb.naver.net","cafefiles.naver.net");
+    }
+
+    // 썸네일 사이즈가 132x132 보다 크면 리사이즈
+    function resizeImg(img)
+    {
+        if( img.width>132 || img.height>132)
+        {
+            if(img.width>img.height) img.width=132;
+            else img.height = 132;
+        }
+    }
+
+	function movePage(sURL) {
+		changeTop(sURL);
+	}
+</script>
+
+<div class="article-album">
+	<div class="list-tit-box">
+		<div class="list-tit">
+			<h3><a href="/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=1004&amp;search.boardtype=L" onclick="movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=1004&amp;search.boardtype=L');return false;" title="진행중인 이벤트">진행중인 이벤트</a></h3>
+			<span><a href="/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=1004&amp;search.boardtype=L" onclick="clickcr(this, 'cfh.more','','',event);movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=1004&amp;search.boardtype=L');return false;">더보기</a></span>
+		</div>
+	</div>
+
+	
+	
+	
+	<ul class="album-box photo-box-3">
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA3MTRfMjE1/MDAxNzUyNDU5NzI3MDcy.kSRcocx1kEM3rikjdQPVoAz3AxnwpTtVzyYqYQIFWBYg.oFGkE2tIj6okxFyl4h7gVsm2WMHHTbLu8uWj3M0nISog.JPEG/800_1.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9689496');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">★&lt; 디페어 타이트핏 쿨 마스크밴드 &gt; 체험단 10명 모집 (~7/20)</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[34]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이벤트스탭</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.07.14.</span>
+									<span class="num">조회 572</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9664254" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9664254');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA3MDdfMjM5/MDAxNzUxODQ1ODA3NDM4.0WMm6mXyr_kkqLvHErjoF6JH3BJm2tl0G_NGAVALvPEg.Zv4UQZv_vRLYbkHFAhaj_m7h64AVySVndUNbcNdiQq8g.JPEG/800.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9664254" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9664254');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">★&lt; 려 루트젠 샴푸&amp;토닉 &gt; 체험단 50명 모집(~7/13)</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[117]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이벤트스탭</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.07.07.</span>
+									<span class="num">조회 818</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9664199" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9664199');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA3MDdfMjA0/MDAxNzUxODQyMzA2Mjk0.xXPgDlAszPvOrWbxAu67wRYFl_FPsF-3bgVVmsrvfUQg._K5rJrS-ArSuj0A5s32BYXecqsTBIWmzbxNfPrjIs9Mg.JPEG/800.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9664199" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9664199');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">★세노비스 트리플러스 오메가3 이뮨 맨 &amp; 우먼 체험단 모집(~7/13)</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[29]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이벤트스탭</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.07.07.</span>
+									<span class="num">조회 668</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA3MDdfMiAg/MDAxNzUxODY4OTk2MzU0.VDgaghxfGCpmaXvh-CTu_epfGBSXGGqMo9WS6MnzgW4g.VaKc8L8RAJlvWafWnrOjXCP2ESz1tH8oqamftkPblsgg.JPEG/800.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639593');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">★&lt; 크레시나 트랜스더믹 두피 앰플 &gt; 체험단 80명 모집(~7/13)</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[100]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이벤트스탭</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.06.30.</span>
+									<span class="num">조회 787</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639579" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639579');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA2MzBfMTkg/MDAxNzUxMjM4MTI0MTI2.3VF7UXPQmNJaB1zQOE0C-TBfc-2cJEysKAhd7QlNcDAg.8ALWhKbPbMSEzFuMZKuZo896h26gY6gyR80HetIqQYog.JPEG/800.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639579" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639579');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">★&lt; 닥터효 알파CD제로 &gt; 체험단 30명 모집 (~7/6)</span></span></a>
+								
+									<a href="#" class="m-tcol-p"><span class="num">[37]</span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이벤트스탭</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.06.30.</span>
+									<span class="num">조회 373</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+			
+				
+				
+					<li>
+						<dl>
+							<dt class="photo">
+								
+									
+										
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639549" onclick="clickcr(this, 'cfh.ithum','','',event);movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639549');return false;">
+									
+										
+										
+											<img src="https://cafethumb.pstatic.net/MjAyNTA3MTRfMTcw/MDAxNzUyNDgwNjg0ODg5.oUmpCwoksyIfuuopvdoPogve49bje2SXRHpojrgS7SQg.P5iMkC-ZGf_eKGa2_bQOw5UCED2AZDqA7J4vqAgcbqUg.JPEG/800_2.jpg?type=f200_200" width="132" height="132" onerror="showOriginal(this)" alt="컨텐츠 이미지">
+										
+									
+									
+									
+									
+
+
+								</a>
+							</dt>
+							<dd class="tit">
+								
+								
+
+								
+									
+									
+								
+								<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9639549" onclick="movePage('/ArticleRead.nhn?clubid=10912875&amp;articleid=9639549');clickcr(this, 'cfh.ititle','','',event);return false;" class="m-tcol-c"><span class="inner"><span class="ellipsis">★아이펩톡스 CJ 홈쇼핑 &lt;25년 7월 15일 오전 8시 15분&gt;💚누적 판매량 500,000병 판매 돌파</span></span></a>
+								
+								
+							</dd>
+							
+							<dd class="p-nick">
+								<div class="pers_nick_area"><a href="#" class="m-tcol-c" onclick=" return false;"><div class="ellipsis p11 m-tcol-c">이벤트스탭</div></a></div>
+							</dd>
+							<dd class="date m-tcol-c">
+								<div class="date_num m-tcol-c">
+									<span class="date">25.06.30.</span>
+									<span class="num">조회 459</span>
+								</div>
+							</dd>
+						</dl>
+					</li>
+				
+				
+				
+			
+			
+		
+
+		
+	</ul>
+</div>
+
+							
+							
+							
+							
+							
+							
+							
+							
+						
+					</div>
+				
+				
+			
+		
+			
+				
+				
+					<div class="fr c-d-l11">
+						
+							
+							
+							
+							
+							
+								
+								
+
+
+
+
+
+
+
+<script type="text/javascript">
+    // 썸네일 로드가 실패하면 원본 보여주기
+    function showOriginal(img,width,height)
+    {
+        if(img.src.indexOf("cafethumb.naver.net")<0)
+            return;
+        img.src = img.src.replace("cafethumb.naver.net","cafefiles.naver.net");
+        
+        if(width>height) img.width = 96;
+        else img.height = 96;
+        
+    }
+    
+    // 썸네일 사이즈가 100x100보다 크면 리사이즈
+    function resizeImg(img)
+    {
+      if( img.width>96 || img.height>96)
+      {
+        if(img.width>img.height) img.width=96;
+        else img.height = 96;
+      }  
+    }
+    function alertBadMenu() {
+		alert('접근 제한 중인 게시판입니다.');
+	}
+
+	function movePage(sURL) {
+		changeTop(sURL);
+	}
+</script>
+
+<div class="article-movie">
+	<div class="list-tit-box">
+		<div class="list-tit">
+			<h3><a href="/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=897&amp;search.boardtype=C" onclick="movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=897&amp;search.boardtype=C');return false;" title="이벤트 당첨자발표">이벤트 당첨자발표</a></h3>
+			<span><a href="/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=897&amp;search.boardtype=C" onclick="clickcr(this, 'cfh.more','','',event);movePage('/ArticleList.nhn?search.clubid=10912875&amp;search.menuid=897&amp;search.boardtype=C');return false;">더보기</a></span>
+		</div>
+	</div>
+	<ul class="article-movie-sub">
+		
+		
+			<li>
+				
+				
+				
+				
+				<div class="card_area">
+					<div class="con">
+						<div class="con_top">
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9697698&amp;referrerAllArticles=true" class="tit"><strong>[발표] &lt;크레시나 트랜스더믹 두피 앰플&gt; 체험단 발표</strong></a>
+							
+								
+									
+									
+										
+										
+									
+								
+							
+						</div>
+
+						<div class="con_bottom">
+							<div class="user_info">
+								<div class="pers_nick_area"><table role="presentation" cellspacing="0"><tbody><tr><td class="p-nick"><a href="#" class="m-tcol-c" onclick=" return false;">이벤트스탭</a><span class="mem-level"></span></td></tr></tbody></table></div>
+								<div class="date_num">
+									<span class="date">2025.07.16.</span>
+									<span class="num">조회 126</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+						
+							
+							
+							
+								
+							
+						
+						<div class="movie-img">
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9697698&amp;referrerAllArticles=true">
+								<img src="https://cafethumb.pstatic.net/MjAyNTA3MTZfMTE4/MDAxNzUyNjIzODA4MDky.OWwFUcbLA8A5eVa9lSs0YNoUAH7iYgorXZO-EVUWODAg.8eghUu3IIdvGp50hMdvdHz9cqJ863tdlQTjPP4sCuYIg.JPEG/%B4%E7%C3%B7%C0%DA%B9%DF%C7%A5_800_90.jpg?type=f200_200" width="96" height="96" alt="썸네일 이미지" onload="resizeImg(this)">
+
+								
+
+								
+							</a>
+						</div>
+					
+
+					
+				</div>
+			</li>
+			
+		
+			<li>
+				
+				
+				
+				
+				<div class="card_area">
+					<div class="con">
+						<div class="con_top">
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9697690&amp;referrerAllArticles=true" class="tit"><strong>[발표] &lt;려 루트젠 샴푸&amp;토닉&gt; 체험단 발표</strong></a>
+							
+								
+									
+									
+										
+										
+									
+								
+							
+						</div>
+
+						<div class="con_bottom">
+							<div class="user_info">
+								<div class="pers_nick_area"><table role="presentation" cellspacing="0"><tbody><tr><td class="p-nick"><a href="#" class="m-tcol-c" onclick=" return false;">이벤트스탭</a><span class="mem-level"></span></td></tr></tbody></table></div>
+								<div class="date_num">
+									<span class="date">2025.07.16.</span>
+									<span class="num">조회 97</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+						
+							
+							
+							
+								
+							
+						
+						<div class="movie-img">
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9697690&amp;referrerAllArticles=true">
+								<img src="https://cafethumb.pstatic.net/MjAyNTA3MTZfMjU0/MDAxNzUyNjIzNjI3NjI3.tJtLWyleeu5L7lqZaT9TpzM1MXAoCZiySTbTVXXw_AIg.curPZajXyaztdhL3LhYQkAoJEKwxNJJgE2KXQRw4ODUg.JPEG/%B4%E7%C3%B7%C0%DA%B9%DF%C7%A5_800_90.jpg?type=f200_200" width="96" height="96" alt="썸네일 이미지" onload="resizeImg(this)">
+
+								
+
+								
+							</a>
+						</div>
+					
+
+					
+				</div>
+			</li>
+			
+		
+			<li>
+				
+				
+				
+				
+				<div class="card_area">
+					<div class="con">
+						<div class="con_top">
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9697666&amp;referrerAllArticles=true" class="tit"><strong>[발표] &lt;세노비스 트리플러스 오메가3 이뮨 맨 &amp; 우먼&gt; 당첨자 발표</strong></a>
+							
+								
+									
+									
+										
+										
+									
+								
+							
+						</div>
+
+						<div class="con_bottom">
+							<div class="user_info">
+								<div class="pers_nick_area"><table role="presentation" cellspacing="0"><tbody><tr><td class="p-nick"><a href="#" class="m-tcol-c" onclick=" return false;">이벤트스탭</a><span class="mem-level"></span></td></tr></tbody></table></div>
+								<div class="date_num">
+									<span class="date">2025.07.16.</span>
+									<span class="num">조회 68</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+
+					
+				</div>
+			</li>
+			
+		
+			<li>
+				
+				
+				
+				
+				<div class="card_area">
+					<div class="con">
+						<div class="con_top">
+							<a href="/ArticleRead.nhn?clubid=10912875&amp;articleid=9678606&amp;referrerAllArticles=true" class="tit"><strong>[발표] &lt;라보에이치 모발강화 트리트먼트&gt; 체험단 우수후기 발표</strong></a>
+							
+								
+									
+									
+										
+										
+									
+								
+							
+						</div>
+
+						<div class="con_bottom">
+							<div class="user_info">
+								<div class="pers_nick_area"><table role="presentation" cellspacing="0"><tbody><tr><td class="p-nick"><a href="#" class="m-tcol-c" onclick=" return false;">이벤트스탭</a><span class="mem-level"></span></td></tr></tbody></table></div>
+								<div class="date_num">
+									<span class="date">2025.07.10.</span>
+									<span class="num">조회 70</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+
+					
+				</div>
+			</li>
+			
+		
+
+		
+	</ul>
+</div>
+
+							
+							
+							
+							
+							
+						
+					</div>
+				
+				
+			
+		
+    
+    
+      <script type="text/javascript">
+      var PngTransparency=function(blankImgUrl) {
+        if(!document.body.filters) return;
+        var imgTags=document.getElementsByName("btn_play_PngTransparency");
+        var imgTagsLength=imgTags.length;
+        var filterPattern="";
+        for (var i=0;i<imgTagsLength;i++) {
+          filterPattern="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+imgTags[i].src+"',sizingMethod='scale');";
+          imgTags[i].style.filter=filterPattern;
+          imgTags[i].style.width=imgTags[i].offsetWidth;
+          imgTags[i].style.height=imgTags[i].offsetHeight;
+          imgTags[i].src=blankImgUrl;
+        }
+      }
+      LH.add('PngTransparency("https://cafe.pstatic.net/cafe4/blankvideo.gif")');
+      </script> 
+    
+		</div>
+		
+		<div id="main-widget-area">
+			<ul class="com">
+				
+			</ul>
+		</div>
+	</div>		
+
+	
+</div>
+<script type="text/javascript">
+LH.add('oEllipsis.ellipsisPage($("basisElement"))');
+</script>
+			</div>	
+		</div>
+	</div>
+</div>
+
+
+<div id="restrict_layer" class="restrict" style="left:200px; top:300px; display:none;">
+	<p><strong>접근 제한중</strong>인 게시판의 게시글입니다.</p>
+	<span class="shadow shadow1"></span><span class="shadow shadow2"></span><span class="shadow shadow3"></span>
+</div>
+
+
+<a href="#" class="blind" onfocus="var t=window.parent.document.getElementById('cafe-footer');t.tabIndex=-1;t.focus();return false" style="visibility:visible">콘텐츠 하단</a>
+<script type="text/javascript">
+	try{
+		var etc = {};
+		etc["sti"] = "cafe_main";
+		lcs_do(etc);
+	}catch(e) {}
+</script>
+<script type="text/javascript">
+LH.add("parentResizeIframe('cafe_main')");
+LH.add('oEllipsis.ellipsisPage($("basisElement"))');
+if (parent.oMenuMoveUpdater) {
+	parent.oMenuMoveUpdater.update(null);
+}
+function moveIframePage(url){
+    parent.$("cafe_main").src = url;
+}
+ </script>
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/common/bastat/ScriptBAStatLog-1650508874000-110305.js" charset="UTF-8"></script>
+
+
+<script type="text/javascript">
+    var LOG_KEY = "CAFE_UUID";
+
+    function uuidv4() {
+		var uuid = "", i, random;
+		for (i = 0; i < 32; i++) {
+		random = Math.random() * 16 | 0;
+		if (i == 8 || i == 12 || i == 16 || i == 20) {
+		  uuid += "-"
+		}
+		uuid += (i == 12 ? 4 : (i == 16 ? (random & 3 | 8) : random)).toString(16);
+		}
+		return uuid;
+    }
+
+    function getDeviceId() {
+    	try {
+		  if (!localStorage.getItem(LOG_KEY)) {
+			localStorage.setItem(LOG_KEY, uuidv4());
+		  }
+
+		  return localStorage.getItem(LOG_KEY);
+		} catch (e) {
+		  // silent
+		  console.error("Can't access localStorage");
+		  return "__UNKNOWN__";
+		}
+    }
+
+    function getReferrerForBA() {
+        if (typeof(window.top.articleReadBalog) === "undefined") {
+            window.top.articleReadBalog = {
+                useIframeReferrer: false
+            };
+        }
+        if (!window.top.articleReadBalog.useIframeReferrer && !!window.top.document.referrer) {
+            window.top.articleReadBalog.useIframeReferrer = true;
+            return window.top.document.referrer;
+        }
+        return document.referrer;
+    }
+
+    var oBAStatSender = new cafe.BAStatSender({
+        oClient : {
+            service_id: 'cafe',
+            user_key: '__UNKNOWN__',
+            os_name: '__UNKNOWN__',
+            os_ver: '-1',
+            app_ver: '-1',
+            country: 'XX',
+            language: 'xx',
+            device_id: getDeviceId(),
+            device_model: '__UNKNOWN__',
+            product: 'web',
+            client_context: {
+                'nnb': 'FUBRDCVZMF4GQ' // CafeBaseAction.java
+            }
+        },
+        sEnv: 'real'
+    });
+</script>
+
+<script type="text/javascript">
+    oBAStatSender.send([
+        {
+            eventType : cafe.BAStatEventType.MYCAFE_HOME,
+            extra : {
+                cafe_id : '10912875',
+                home_type : 'NORMAL'
+            }
+        }
+    ]);
+</script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/cafe/jindo1/OneToOneChatLauncher-1672982043000-2996.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_ui-1715226811000-18405.js"></script>
+
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/widget/ClockWide-1644284985000-183141.js" charset="UTF-8"></script>
+
+
+<script type="text/javascript">
+function notiAlert(frmStr)
+{
+    open_window("", frmStr, 100, 100, "");
+    var frm = eval("document." + frmStr);
+    frm.target = frmStr;
+    try{
+        frm.submit();
+    }catch(e){}
+}
+
+
+
+
+
+
+
+
+
+function visit() {
+
+}
+function cafeVisitCB(res) { 
+	if(res.status==200) {
+		try{ 
+	
+			var counter = eval('(' + res.responseText + ')');
+			
+			if(counter == null || counter == 'undefined') {
+				return false;
+			}
+			
+		
+		
+		
+			if(counter.notiList != null) {
+				for (var i = 0; i < counter.notiList.length; i++) {
+					if (counter.notiList[i].exposeAll == 'true' || counter.notiList[i].exposeCafe == 'true') {			
+						document.notifrm.action = counter.notiList[i].param2;
+						document.notifrm.noticode.value = counter.notiList[i].noticode;
+						document.notifrm.comment.innerText = counter.notiList[i].message;
+						
+						notiAlert('notifrm');
+					}
+				}
+			}
+		}catch(e){
+		}
+	} 
+} 
+
+LH.add("visit()");
+
+if (!Function.prototype.bind) {
+    Function.prototype.bind = function (context) {
+        var fn = this;
+        var args = Array.prototype.slice.call(arguments, 1);
+
+        if (typeof (fn) !== 'function') {
+            throw new TypeError('Function.prototype.bind - context must be a valid function');
+        }
+
+        return function () {
+            return fn.apply(context, args.concat(Array.prototype.slice.call(arguments)));
+        };
+    };
+}
+
+function callAppView(componentid, appId) {
+    var ajax = new Ajax("/AppCafeViewAjax.nhn?clubid=10912875&appId="+appId, {
+        suspend : "true",
+        onLoad : appViewCallBack.bind(window,componentid,appId)
+    });
+    ajax.request();
+}
+
+
+function appViewCallBack(componentid, appId, res) {
+    $(componentid).innerHTML = '';
+    $(componentid).innerHTML = res.responseText;
+
+    try{
+        parentResizeIframe('cafe_main');
+    }catch(e){}
+}
+
+
+
+
+
+
+
+
+
+
+
+LH.add("callMemberNews('visit');");
+LH.add("parentResizeIframe('cafe_main')");
+</script>
+
+
+
+<form name="notifrm" method="post" action="">
+    <input type="hidden" name="clubid" value="10912875">
+    <input type="hidden" name="noticode" value="">
+    <textarea name="comment" style="display: none;" title="댓글 팝업"></textarea>
+</form>
+<script type="text/javascript">
+    oOneToOneChatLauncher.setIsCafeMember(false);
+
+	function initAutoAndRight() {
+		// AjaxUI
+		// 자동출처 기능의 사용여부를 두번째 파라미터에 지정합니다.
+		AutoSourcing.init( 'post_%id%' , true );
+
+		if (false==true) {
+			blockMouseRight();
+		}
+	}
+	LH.add( "initAutoAndRight()" );
+
+
+    
+    if ($Agent().IE) {
+        // Ajax.initFlash("/common/flash/ajax.swf");
+    }
+</script>
+<script type="text/javascript">
+	// CAFESUS-7781 by laziel
+	var goFitter;
+	var gnFitted = 0;
+
+	function fitFrame(){
+		if(gnFitted < 10){ // 0.5초씩 10회
+			parentResizeIframe('cafe_main');
+			goFitter = window.setTimeout('fitFrame()', 500);
+			gnFitted++;
+		} else {
+			stopFitFrame();
+		}
+	}
+
+	function stopFitFrame(){
+		if(goFitter){
+			Event.unregister(window, 'load', fitFrame);
+			window.clearTimeout(goFitter);
+			goFitter = gnFitted = null;
+		}
+	}
+
+	Event.register(window, 'load', fitFrame);
+	Event.register(window, 'unload', stopFitFrame);
+
+	var bTablet = false;
+	var oTabletHandler = new TabletHandler(bTablet);
+
+
+var cafenameTitle = "『여우야』뷰티카페 (성형수술/화장품/성형후기/이벤트/체험단)";
+LH.add(changeTitle(cafenameTitle + " : " +  "네이버 카페"));
+LH.add(initTopLayerQuery());
+
+
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+
+
+	function showDenyNamelessLayer() {
+		if(confirm("실명 확인 회원만 가입이 가능합니다. \n 실명확인 페이지로 이동하시겠습니까?")) {
+            redirectToCertPage();
+		}
+	}
+
+
+
+
+function hideDenyNamelessLayer() {
+	document.getElementById("denyNamelessLayer").style.display = "none";
+}
+
+function redirectToCertPage() {
+	toCertPage(encodeURIComponent(document.location.href), encodeURIComponent('https://cafe.naver.com/feko'));
+}
+</script>
+<div id="denyNamelessLayer" class="cafetype_layer2" style="width:356px;top:0px;left:440px;margin:0;display:none;"> 
+	<img src="https://cafe.pstatic.net/img/realname/ico_layer.gif" width="25" height="24" alt="">
+	<h3><span>『여우야』뷰티카페 (성형수술/화장품/성형후기/이벤트/체험단)</span> 카페는<br>실명 확인 회원만 가입 받고 있습니다.</h3>
+	<p class="layer_txt">카페에 가입 하시려면 실명 확인을 해주세요.</p>
+	<div class="btn_box">
+		<a href="#" onclick="hideDenyNamelessLayer(); return false;"><img src="https://cafe.pstatic.net/img/realname/btn_clse_lay.gif" width="47" height="26" alt="닫기"></a> <a href="#" onclick="redirectToCertPage();"><img src="https://cafe.pstatic.net/img/realname/btn_cfm_lay.gif" width="105" height="26" alt="실명 확인 하기"></a>
+	</div>
+	<a href="#" onclick="hideDenyNamelessLayer(); return false;" class="btn_close" role="button"><img src="https://cafe.pstatic.net/img/btn_close_layer3.gif" width="19" height="19" alt="닫기"></a>
+	<iframe frameborder="0" scrolling="no" style="width:400px;" title="빈프레임"></iframe>
+</div>
+
+
+
+
+<script type="text/javascript">
+function showGenderUnknownLayer() {
+	document.getElementById("genderUnknownLayer").style.display = "block";
+}
+
+function hideGenderUnknownLayer() {
+	document.getElementById("genderUnknownLayer").style.display = "none";
+}
+
+function redirectToCertPage() {
+	toCertPage(encodeURIComponent(document.location.href), encodeURIComponent('https://cafe.naver.com/feko'));
+}
+</script>
+
+<!-- // 성별 설정 안내 레이어 -->
+<div id="genderUnknownLayer" class="layer type2 layer_gender_infomation" style="display: none;">
+	<div class="header_title">
+		<p class="title_text">
+			죄송합니다. 이 카페는<br>
+			
+			
+			회원만 가입할 수 있습니다.
+		</p>
+		<p class="sub_title_text">
+			성별 정보 입력을 위해<br>
+			본인확인 페이지로 이동하시겠습니까?
+		</p>
+	</div>
+	<div class="btn_wrap">
+		<a href="#" onclick="hideGenderUnknownLayer(); return false;" class="btn_layer btn_cancel" role="button">취소</a>
+		<a href="#" onclick="redirectToCertPage(); return false;" class="btn_layer btn_confirm" role="button">확인</a>
+	</div>
+</div>
+
+
+</body></html>

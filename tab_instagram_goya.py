@@ -250,28 +250,45 @@ def process_url(driver, url, name, template_manager, row, service, sheet_name, u
     countdown(wait_time, "URL 접속 후 대기")
 
     try:
-        # 먼저 팔로우 버튼 확인
-        try:
-            follow_button = WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.XPATH, 
-                    "//button[.//div[contains(text(), '팔로우') or contains(text(), '팔로잉')]]"))
-            )
-            button_text = follow_button.find_element(By.XPATH, ".//div").text
-            
-            if button_text == "팔로우":
-                follow_button.click()
-                print("팔로우 완료")
-                wait_time = random.uniform(4, 12)
-                countdown(wait_time, "팔로우 후 대기")
-        except TimeoutException:
-            print("팔로우 버튼이 없거나 이미 팔로우 중입니다.")
-            pass
+        # 먼저 팔로우 버튼 확인 (주석처리됨)
+        # try:
+        #     follow_button = WebDriverWait(driver, 5).until(
+        #         EC.presence_of_element_located((By.XPATH, 
+        #             "//button[.//div[contains(text(), '팔로우') or contains(text(), '팔로잉')]]"))
+        #     )
+        #     button_text = follow_button.find_element(By.XPATH, ".//div").text
+        #     
+        #     if button_text == "팔로우":
+        #         follow_button.click()
+        #         print("팔로우 완료")
+        #         wait_time = random.uniform(4, 12)
+        #         countdown(wait_time, "팔로우 후 대기")
+        # except TimeoutException:
+        #     print("팔로우 버튼이 없거나 이미 팔로우 중입니다.")
+        #     pass
 
-        message_button = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'x1i10hfl') and contains(text(), '메시지 보내기')]"))
-        )
-        print(f"버튼 텍스트: {message_button.text}")
-        message_button.click()
+        # 메시지 보내기 버튼 찾기 (최대 3회 재시도)
+        message_button = None
+        retry_count = 0
+        max_retries = 3
+        
+        while retry_count < max_retries:
+            try:
+                message_button = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'x1i10hfl') and contains(text(), '메시지 보내기')]"))
+                )
+                print(f"버튼 텍스트: {message_button.text}")
+                message_button.click()
+                break
+            except TimeoutException:
+                retry_count += 1
+                if retry_count < max_retries:
+                    print(f"메시지 보내기 버튼을 찾을 수 없습니다. 5초 후 재시도 ({retry_count}/{max_retries})")
+                    time.sleep(5)
+                else:
+                    print("메시지 보내기 버튼을 찾을 수 없습니다. 최대 재시도 횟수 초과.")
+                    raise TimeoutException("메시지 보내기 버튼을 찾을 수 없습니다.")
+        
         wait_time = random.uniform(5, 20) #원래 60초였음
         countdown(wait_time, "DM 버튼 클릭 후 대기")
 
