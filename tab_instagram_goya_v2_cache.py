@@ -59,6 +59,7 @@ if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
 from notion_module.notion_reader import get_database_items, extract_page_id_from_url, print_database_items
+from instagram_message_vendor import InstagramMessageTemplate
 
 def clear_chrome_data(user_data_dir, keep_login=True):
     default_dir = os.path.join(user_data_dir, 'Default')
@@ -562,6 +563,9 @@ def main():
     if not template_sheet:
         print("템플릿 시트를 선택할 수 없습니다. 프로그램을 종료합니다.")
         return
+
+    # 메시지 템플릿 매니저 초기화
+    template_manager = InstagramMessageTemplate(TEMPLATE_SPREADSHEET_ID, template_sheet)
 
     # 프로그램 실행 전 확인
     print(f"\n선택된 설정:")
