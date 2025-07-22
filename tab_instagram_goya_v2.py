@@ -232,12 +232,13 @@ def update_sheet_status(service, row, status, timestamp=None, sheet_name=None):
     # I열에 상태를 기록
     range_name = f'{sheet_name}!I{row}'
     
-    # 성공 시 'DM완료(오늘날짜)', 실패 시 'DM실패' 기록
+    # 성공 시 'DM완료(오늘날짜)', 실패 시 'DM실패(오늘날짜)' 기록
     if status == 'Y':
         today = datetime.now().strftime("%m/%d")
         value = f'DM완료({today})'
     else:
-        value = 'DM실패'
+        today = datetime.now().strftime("%m/%d")
+        value = f'DM실패({today})'
     
     values = [[value]]
     body = {'values': values}
@@ -256,15 +257,20 @@ def countdown(wait_time, message):
         time.sleep(1)
     print(f"{message} 완료!    ", end='\r')
 
-def natural_scroll_on_instagram(driver):
-    """Instagram 메인에서 자연스러운 스크롤 동작을 수행"""
+def natural_scroll_on_instagram(driver, url=None):
+    """Instagram 메인/릴스에서 자연스러운 스크롤 동작을 수행"""
     try:
+        if url:
+            driver.get(url)
+            print(f"\n{url} 페이지로 이동했습니다.")
+            time.sleep(random.uniform(3, 8))  # 페이지 로딩 대기
+
         # 초기 페이지 높이 확인
         last_height = driver.execute_script("return document.body.scrollHeight")
         print(f"초기 페이지 높이: {last_height}px")
         
-        # 스크롤 횟수 랜덤 설정 (10-120회)
-        scroll_attempts = random.randint(10, 80)
+        # 스크롤 횟수 랜덤 설정 (40-200회로 증가)
+        scroll_attempts = random.randint(40, 200)
         print(f"스크롤 시도 횟수: {scroll_attempts}회")
         
         for attempt in range(scroll_attempts):
@@ -293,7 +299,7 @@ def natural_scroll_on_instagram(driver):
             time.sleep(wait_time)
 
             # 새로운 높이 계산 전에 추가 대기
-            time.sleep(3)
+            time.sleep(random.uniform(3, 8))
             new_height = driver.execute_script("return document.body.scrollHeight")
 
             # 추가 스크롤 시도
@@ -317,9 +323,9 @@ def natural_scroll_on_instagram(driver):
                 last_height = new_height
                 print(f"새로운 컨텐츠 로드됨! 새로운 높이: {new_height}px")
             
-            # 스크롤 간 랜덤 대기 (1-3초)
+            # 스크롤 간 랜덤 대기 (3-10초로 증가)
             if attempt < scroll_attempts - 1:  # 마지막 스크롤이 아니면
-                wait_between_scrolls = random.uniform(1, 3)
+                wait_between_scrolls = random.uniform(3, 10)
                 print(f"다음 스크롤까지 {wait_between_scrolls:.1f}초 대기...")
                 time.sleep(wait_between_scrolls)
         
@@ -341,8 +347,8 @@ def browse_feed_posts(driver, profile_url):
     try:
         print(f"\n--- {profile_url}의 피드 게시물 살펴보기 시작 ---")
         
-        # 랜덤으로 살펴볼 게시물 수 결정 (3-15개)
-        num_posts_to_browse = random.randint(3, 15)
+        # 랜덤으로 살펴볼 게시물 수 결정 (10-21개로 수정)
+        num_posts_to_browse = random.randint(10, 21)
         print(f"랜덤으로 {num_posts_to_browse}개의 게시물을 살펴보겠습니다.")
         
         # 첫 번째 피드 게시물이 로드될 때까지 대기
@@ -372,8 +378,8 @@ def browse_feed_posts(driver, profile_url):
         for i in range(num_posts_to_browse - 1):  # 첫 번째는 이미 클릭했으므로 -1
             print(f"\n--- {i+2}번째 게시물 살펴보기 ---")
             
-            # 게시물을 살펴보는 시간 (8-20초 랜덤)
-            browse_time = random.uniform(3, 8)
+            # 게시물을 살펴보는 시간 (3-60초 랜덤으로 수정)
+            browse_time = random.uniform(3, 60)
             print(f"게시물을 {browse_time:.1f}초간 살펴보는 중...")
             time.sleep(browse_time)
             
@@ -423,9 +429,20 @@ def browse_feed_posts(driver, profile_url):
             pass
 
 def process_url(driver, url, name, template_manager, row, service, sheet_name, user_data_dir):
+    # Instagram 메인 피드 스크롤
+    natural_scroll_on_instagram(driver)
+    print("\n메인 피드 스크롤 완료!")
+    
+    # 릴스 페이지 스크롤
+    print("\n릴스 페이지로 이동합니다...")
+    natural_scroll_on_instagram(driver, "https://www.instagram.com/reels/")
+    print("\n릴스 페이지 스크롤 완료!")
+    
+    # 인플루언서 프로필로 이동
+    print(f"\n{url} 프로필로 이동합니다...")
     driver.get(url)
     print(driver.title)
-    wait_time = random.uniform(5, 10) #원래 300초였음
+    wait_time = random.uniform(5, 10)
     countdown(wait_time, "URL 접속 후 대기")
 
     try:
@@ -523,6 +540,8 @@ def process_url(driver, url, name, template_manager, row, service, sheet_name, u
             content='공구문의',
             message="메시지 보내기 버튼을 찾을 수 없음"
         )
+        print("메시지 보내기 버튼을 찾을 수 없어 프로그램을 종료합니다.")
+        sys.exit(1)
     except NoSuchElementException:
         print("요소를 찾을 수 없습니다.")
         update_sheet_status(service, row, 'failed', None, sheet_name)
@@ -536,6 +555,8 @@ def process_url(driver, url, name, template_manager, row, service, sheet_name, u
             content='공구문의',
             message="요소를 찾을 수 없음"
         )
+        print("요소를 찾을 수 없어 프로그램을 종료합니다.")
+        sys.exit(1)
 
 def save_dm_record_to_mongodb(influe_name, contact_profile, status, dm_date, content, message):
     if not mongo_connected:
