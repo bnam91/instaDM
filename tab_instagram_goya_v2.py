@@ -433,10 +433,10 @@ def process_url(driver, url, name, template_manager, row, service, sheet_name, u
     natural_scroll_on_instagram(driver)
     print("\n메인 피드 스크롤 완료!")
     
-    # 릴스 페이지 스크롤
-    print("\n릴스 페이지로 이동합니다...")
-    natural_scroll_on_instagram(driver, "https://www.instagram.com/reels/")
-    print("\n릴스 페이지 스크롤 완료!")
+    # 릴스 페이지 스크롤 (주석처리)
+    # print("\n릴스 페이지로 이동합니다...")
+    # natural_scroll_on_instagram(driver, "https://www.instagram.com/reels/")
+    # print("\n릴스 페이지 스크롤 완료!")
     
     # 인플루언서 프로필로 이동
     print(f"\n{url} 프로필로 이동합니다...")
