@@ -181,7 +181,7 @@ def get_data_from_sheets(service, selected_sheet):
         for row_idx, row in enumerate(values, start=2):  # 실제 스프레드시트의 행 번호 사용
             print(f"행 {row_idx} 확인 중: {row}")
             if (row and 
-                len(row) > 8 and row[8] == 'DM요청'):  # I열에 'DM요청'이 있는 경우만
+                len(row) > 8 and row[8].lower() == 'dm요청'):  # I열에 'DM요청'이 있는 경우만 (대소문자 구분 없음)
                 print(f"행 {row_idx}: DM요청 조건 만족")
                 
                 # B열에서 인플루언서 이름 가져오기 (URL 생성용)
